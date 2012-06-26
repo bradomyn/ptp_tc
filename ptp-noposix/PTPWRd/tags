@@ -1,0 +1,1251 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACKNOWLEDGE	constants.h	/^	ACKNOWLEDGE,$/;"	e	enum:__anon21
+ADJ_FREQ_MAX	dep/constants_dep.h	80;"	d
+ALT1_DOMAIN_NUMBER	constants.h	/^	ALT1_DOMAIN_NUMBER,$/;"	e	enum:__anon10
+ALT2_DOMAIN_NUMBER	constants.h	/^	ALT2_DOMAIN_NUMBER,$/;"	e	enum:__anon10
+ALT3_DOMAIN_NUMBER	constants.h	/^	ALT3_DOMAIN_NUMBER$/;"	e	enum:__anon10
+ANNOUNCE	constants.h	/^	ANNOUNCE,$/;"	e	enum:__anon17
+ANNOUNCE_INTERVAL_TIMER	constants.h	/^	ANNOUNCE_INTERVAL_TIMER, \/**<\\brief Timer handling interval before master sends two announce messages*\/$/;"	e	enum:__anon15
+ANNOUNCE_LENGTH	constants.h	76;"	d
+ANNOUNCE_RECEIPT_TIMER	constants.h	/^	ANNOUNCE_RECEIPT_TIMER,\/**<\\brief Timer handling announce receipt timeout*\/$/;"	e	enum:__anon15
+ANN_SUFIX	constants.h	/^	ANN_SUFIX = 0x2000,$/;"	e	enum:__anon23
+ATOMIC_CLOCK	constants.h	/^	ATOMIC_CLOCK=0x10,$/;"	e	enum:__anon12
+A_better_by_topology_then_B	constants.h	370;"	d
+A_better_then_B	constants.h	371;"	d
+A_equals_B	constants.h	375;"	d
+AnnounceWRtlv	datatypes.h	/^typedef Octet AnnounceWRtlv[WR_ANNOUNCE_TLV_LENGTH];$/;"	t
+BSD_INTERFACE_FUNCTIONS	dep/constants_dep.h	32;"	d
+B_better_by_topology_then_A	constants.h	373;"	d
+B_better_then_A	constants.h	372;"	d
+Boolean	dep/datatypes_dep.h	/^typedef enum {FALSE=0, TRUE} Boolean;$/;"	t	typeref:enum:__anon2
+CALIBRATE	constants.h	/^	CALIBRATE,$/;"	e	enum:__anon23
+CALIBRATED	constants.h	/^	CALIBRATED,$/;"	e	enum:__anon23
+CLOCK_IDENTITY_LENGTH	dep/constants_dep.h	79;"	d
+CLOCK_IDENTITY_LENGTH	dep/constants_dep.h	87;"	d
+COMMAND	constants.h	/^	COMMAND,$/;"	e	enum:__anon21
+CONSTANTS_DEP_H	dep/constants_dep.h	5;"	d
+CONSTANTS_H_	constants.h	2;"	d
+ClockIdentity	datatypes.h	/^typedef Octet ClockIdentity[CLOCK_IDENTITY_LENGTH];$/;"	t
+ClockQuality	datatypes.h	/^} ClockQuality;$/;"	t	typeref:struct:__anon31
+ControlNet	constants.h	/^	ControlNet,$/;"	e	enum:__anon11
+DAEMONE_MODE	constants.h	16;"	d
+DATATYPES_DEP_H_	dep/datatypes_dep.h	2;"	d
+DATATYPES_H_	datatypes.h	2;"	d
+DBGNPI	dep/ptpd_dep.h	41;"	d
+DBGNPI	dep/ptpd_dep.h	43;"	d
+DBGV	dep/ptpd_dep.h	32;"	d
+DBGV	dep/ptpd_dep.h	34;"	d
+DEFAULT_AI	constants.h	31;"	d
+DEFAULT_ANNOUNCE_INTERVAL	constants.h	33;"	d
+DEFAULT_ANNOUNCE_RECEIPT_TIMEOUT	constants.h	40;"	d
+DEFAULT_AP	constants.h	30;"	d
+DEFAULT_CLOCKCLASS_VALIDATE_TIMEOUT	constants.h	46;"	d
+DEFAULT_CLOCK_ACCURACY	constants.h	44;"	d
+DEFAULT_CLOCK_CLASS	constants.h	48;"	d
+DEFAULT_CLOCK_VARIANCE	constants.h	52;"	d
+DEFAULT_DELAYREQ_INTERVAL	constants.h	37;"	d
+DEFAULT_DELAY_MECHANISM	constants.h	29;"	d
+DEFAULT_DELAY_S	constants.h	32;"	d
+DEFAULT_DISABLE_FALLBACK_WHEN_WR_FAILS	constants.h	62;"	d
+DEFAULT_DOMAIN_NUMBER	constants.h	28;"	d
+DEFAULT_FOREIGN_MASTER_THRESHOLD	constants.h	43;"	d
+DEFAULT_FOREIGN_MASTER_TIME_WINDOW	constants.h	42;"	d
+DEFAULT_INBOUND_LATENCY	constants.h	25;"	d
+DEFAULT_MAX_FOREIGN_RECORDS	constants.h	56;"	d
+DEFAULT_MAX_FOREIGN_RECORDS	constants.h	58;"	d
+DEFAULT_NO_RESET_CLOCK	constants.h	27;"	d
+DEFAULT_OUTBOUND_LATENCY	constants.h	26;"	d
+DEFAULT_PARENTS_STATS	constants.h	61;"	d
+DEFAULT_PDELAYREQ_INTERVAL	constants.h	36;"	d
+DEFAULT_PRIORITY1	constants.h	50;"	d
+DEFAULT_PRIORITY2	constants.h	51;"	d
+DEFAULT_PTP_DOMAIN_ADDRESS	dep/constants_dep.h	95;"	d
+DEFAULT_QUALIFICATION_TIMEOUT	constants.h	41;"	d
+DEFAULT_STARTUP_MODE	constants.h	20;"	d
+DEFAULT_SYNC_INTERVAL	constants.h	38;"	d
+DEFAULT_SYNC_RECEIPT_TIMEOUT	constants.h	39;"	d
+DEFAULT_UTC_OFFSET	constants.h	34;"	d
+DEFAULT_UTC_VALID	constants.h	35;"	d
+DELAYREQ_INTERVAL_TIMER	constants.h	/^	DELAYREQ_INTERVAL_TIMER,\/**<\\brief Timer handling the delayReq Interva*\/$/;"	e	enum:__anon15
+DELAY_DISABLED	constants.h	/^	DELAY_DISABLED=0xFE$/;"	e	enum:__anon14
+DELAY_REQ	constants.h	/^	DELAY_REQ,$/;"	e	enum:__anon17
+DELAY_REQ_LENGTH	constants.h	80;"	d
+DELAY_RESP	constants.h	/^	DELAY_RESP,$/;"	e	enum:__anon17
+DELAY_RESP_LENGTH	constants.h	81;"	d
+DFLT_DOMAIN_NUMBER	constants.h	/^	DFLT_DOMAIN_NUMBER = 0,$/;"	e	enum:__anon10
+DISABLED	constants.h	/^	DISABLED,$/;"	e	enum:__anon13
+DSC_error	constants.h	376;"	d
+DeviceNet	constants.h	/^	DeviceNet,$/;"	e	enum:__anon11
+E2E	constants.h	/^	E2E=1,$/;"	e	enum:__anon14
+E2E_mode	datatypes.h	/^	Boolean		E2E_mode;$/;"	m	struct:__anon53	access:public
+EBest	bmc.c	/^UInteger8 EBest(PtpPortDS *ptpPortDS )$/;"	f	signature:(PtpPortDS *ptpPortDS )
+EBest	ptpd.h	/^UInteger8 EBest(PtpPortDS *ptpPortDS );$/;"	p	signature:(PtpPortDS *ptpPortDS )
+ERROR	dep/ptpd_dep.h	21;"	d
+Ebest	datatypes.h	/^	Integer16  Ebest;$/;"	m	struct:__anon49	access:public
+Enumeration16	dep/datatypes_dep.h	/^typedef unsigned short Enumeration16;$/;"	t
+Enumeration4	dep/datatypes_dep.h	/^typedef unsigned char Enumeration4;$/;"	t
+Enumeration8	dep/datatypes_dep.h	/^typedef unsigned char Enumeration8;$/;"	t
+ErBest	bmc.c	/^UInteger8 ErBest(ForeignMasterRecord *foreignMaster,PtpPortDS *ptpPortDS )$/;"	f	signature:(ForeignMasterRecord *foreignMaster,PtpPortDS *ptpPortDS )
+ErBest	ptpd.h	/^UInteger8 ErBest(ForeignMasterRecord *foreignMaster,PtpPortDS *ptpPortDS );$/;"	p	signature:(ForeignMasterRecord *foreignMaster,PtpPortDS *ptpPortDS )
+FALSE	dep/datatypes_dep.h	/^typedef enum {FALSE=0, TRUE} Boolean;$/;"	e	enum:__anon2
+FAULTY	constants.h	/^	FAULTY,$/;"	e	enum:__anon13
+FLAG_FIELD_LENGTH	dep/constants_dep.h	88;"	d
+FOLLOW_UP	constants.h	/^	FOLLOW_UP=0x8,$/;"	e	enum:__anon17
+FOLLOW_UP_LENGTH	constants.h	78;"	d
+FaultRecord	datatypes.h	/^} FaultRecord;$/;"	t	typeref:struct:__anon34
+FixedDelta	datatypes.h	/^} FixedDelta;$/;"	t	typeref:struct:__anon27
+ForeignMasterRecord	datatypes.h	/^} ForeignMasterRecord;$/;"	t	typeref:struct:__anon48
+GET	constants.h	/^	GET,$/;"	e	enum:__anon21
+GPS	constants.h	/^	GPS=0x20,$/;"	e	enum:__anon12
+HAND_SET	constants.h	/^	HAND_SET=0x60,$/;"	e	enum:__anon12
+HEADER_LENGTH	constants.h	75;"	d
+IEE_802_3	constants.h	/^	UDP_IPV6,IEE_802_3,$/;"	e	enum:__anon11
+IFACE_NAME_LENGTH	dep/constants_dep.h	74;"	d
+IFCONF_LENGTH	dep/constants_dep.h	76;"	d
+IF_NAMESIZE	dep/constants_dep.h	21;"	d
+INET_ADDRSTRLEN	dep/constants_dep.h	22;"	d
+INIT	constants.h	/^	INIT,$/;"	e	enum:__anon25
+INITIALIZING	constants.h	/^	INITIALIZING=1,$/;"	e	enum:__anon13
+INTERNAL_OSCILLATOR	constants.h	/^	INTERNAL_OSCILLATOR=0xA0$/;"	e	enum:__anon12
+Integer16	dep/datatypes_dep.h	/^typedef signed short Integer16;$/;"	t
+Integer32	dep/datatypes_dep.h	/^typedef signed int Integer32;$/;"	t
+Integer64	dep/datatypes_dep.h	/^} Integer64;$/;"	t	typeref:struct:__anon4
+Integer8	dep/datatypes_dep.h	/^typedef signed char Integer8;$/;"	t
+IntervalTimer	datatypes.h	/^} IntervalTimer;$/;"	t	typeref:struct:__anon47
+LISTENING	constants.h	/^	LISTENING,$/;"	e	enum:__anon13
+LOCK	constants.h	/^	LOCK,$/;"	e	enum:__anon23
+LOCKED	constants.h	/^	LOCKED,$/;"	e	enum:__anon23
+MANAGEMENT	constants.h	/^	MANAGEMENT,$/;"	e	enum:__anon17
+MANAGEMENT_LENGTH	constants.h	84;"	d
+MANUFACTURER_ID	constants.h	22;"	d
+MASTER	constants.h	/^	MASTER,$/;"	e	enum:__anon13
+MAX_PORT_NUMBER	constants.h	125;"	d
+MAX_PORT_NUMBER	constants.h	127;"	d
+MIN_PORT_NUMBER	constants.h	130;"	d
+MM_STARTING_BOUNDARY_HOPS	dep/constants_dep.h	98;"	d
+MsgAnnounce	datatypes.h	/^}MsgAnnounce;$/;"	t	typeref:struct:__anon36
+MsgDelayReq	datatypes.h	/^}MsgDelayReq;$/;"	t	typeref:struct:__anon38
+MsgDelayResp	datatypes.h	/^}MsgDelayResp;$/;"	t	typeref:struct:__anon39
+MsgFollowUp	datatypes.h	/^}MsgFollowUp;$/;"	t	typeref:struct:__anon40
+MsgHeader	datatypes.h	/^} MsgHeader;$/;"	t	typeref:struct:__anon35
+MsgManagement	datatypes.h	/^}MsgManagement;$/;"	t	typeref:struct:__anon45
+MsgPDelayReq	datatypes.h	/^}MsgPDelayReq;$/;"	t	typeref:struct:__anon41
+MsgPDelayResp	datatypes.h	/^}MsgPDelayResp;$/;"	t	typeref:struct:__anon42
+MsgPDelayRespFollowUp	datatypes.h	/^}MsgPDelayRespFollowUp;$/;"	t	typeref:struct:__anon43
+MsgSignaling	datatypes.h	/^}MsgSignaling;$/;"	t	typeref:struct:__anon44
+MsgSync	datatypes.h	/^}MsgSync;$/;"	t	typeref:struct:__anon37
+NET_ADDRESS_LENGTH	dep/constants_dep.h	75;"	d
+NONDAEMONE_MODE	constants.h	17;"	d
+NON_SLAVE	constants.h	/^	NON_SLAVE	= 0x0,$/;"	e	enum:__anon24
+NON_WR	constants.h	/^	NON_WR      = 0x0,$/;"	e	enum:__anon19
+NOTIFY	dep/ptpd_dep.h	23;"	d
+NOT_SEND_CALIBRATION_PATTERN	constants.h	155;"	d
+NO_ADJUST	constants.h	69;"	d
+NTP	constants.h	/^	NTP=0x50,$/;"	e	enum:__anon12
+NULL_WR_TLV	constants.h	/^	NULL_WR_TLV = 0x0000,$/;"	e	enum:__anon23
+NUMBER_PORTS	constants.h	65;"	d
+NetPath	dep/datatypes_dep.h	/^} NetPath;$/;"	t	typeref:struct:__anon8
+Nibble	dep/datatypes_dep.h	/^typedef unsigned char Nibble;$/;"	t
+OTHER	constants.h	/^	OTHER=0x90,$/;"	e	enum:__anon12
+Octet	dep/datatypes_dep.h	/^typedef char Octet;$/;"	t
+P2P	constants.h	/^	P2P=2,$/;"	e	enum:__anon14
+P2P_mode	datatypes.h	/^    Boolean     P2P_mode;$/;"	m	struct:__anon53	access:public
+PACKET_SIZE	dep/constants_dep.h	90;"	d
+PASSIVE	constants.h	/^	PASSIVE,$/;"	e	enum:__anon13
+PDELAYREQ_INTERVAL_TIMER	constants.h	/^	PDELAYREQ_INTERVAL_TIMER=0,\/**<\\brief Timer handling the PdelayReq Interval*\/$/;"	e	enum:__anon15
+PDELAY_REQ	constants.h	/^	PDELAY_REQ,$/;"	e	enum:__anon17
+PDELAY_REQ_LENGTH	constants.h	79;"	d
+PDELAY_RESP	constants.h	/^	PDELAY_RESP,$/;"	e	enum:__anon17
+PDELAY_RESP_FOLLOW_UP	constants.h	/^	PDELAY_RESP_FOLLOW_UP,$/;"	e	enum:__anon17
+PDELAY_RESP_FOLLOW_UP_LENGTH	constants.h	83;"	d
+PDELAY_RESP_LENGTH	constants.h	82;"	d
+PEER_PTP_DOMAIN_ADDRESS	dep/constants_dep.h	96;"	d
+PERROR	dep/ptpd_dep.h	22;"	d
+PORT_ADDRESS_LENGTH	dep/constants_dep.h	85;"	d
+PRE_MASTER	constants.h	/^	PRE_MASTER,$/;"	e	enum:__anon13
+PRIMARY_SLAVE	constants.h	/^	PRIMARY_SLAVE 	,$/;"	e	enum:__anon24
+PROFINET	constants.h	/^	PROFINET$/;"	e	enum:__anon11
+PTP	constants.h	/^	PTP=0x40,$/;"	e	enum:__anon12
+PTPDEXP_COMMAND_MAN_ADJUST_PHASE	ptpd_exports.h	29;"	d
+PTPDEXP_COMMAND_TRACKING	ptpd_exports.h	28;"	d
+PTPD_DBG	dep/ptpd_dep.h	31;"	d
+PTPD_DEP_H_	dep/ptpd_dep.h	2;"	d
+PTPD_H_	ptpd.h	22;"	d
+PTPD_TRACE	dep/trace.h	35;"	d
+PTPD_TRACE_MASK	dep/trace.h	5;"	d
+PTPD_TRACE_NOPTPDATADS	dep/trace.h	57;"	d
+PTPText	datatypes.h	/^} PTPText;$/;"	t	typeref:struct:__anon33
+PTP_DEFAULT	constants.h	/^	PTP_DEFAULT$/;"	e	enum:__anon18
+PTP_DISABLED	constants.h	/^	PTP_INITIALIZING=0,	PTP_FAULTY,		PTP_DISABLED,$/;"	e	enum:__anon16
+PTP_ETHER	constants.h	/^	PTP_ETHER,$/;"	e	enum:__anon18
+PTP_EVENT_PORT	dep/constants_dep.h	92;"	d
+PTP_EXPORT_STRUCTURES	ptpd_exports.c	8;"	d	file:
+PTP_FAULTY	constants.h	/^	PTP_INITIALIZING=0,	PTP_FAULTY,		PTP_DISABLED,$/;"	e	enum:__anon16
+PTP_GENERAL_PORT	dep/constants_dep.h	93;"	d
+PTP_INITIALIZING	constants.h	/^	PTP_INITIALIZING=0,	PTP_FAULTY,		PTP_DISABLED,$/;"	e	enum:__anon16
+PTP_LISTENING	constants.h	/^	PTP_LISTENING,		PTP_PRE_MASTER,		PTP_MASTER,$/;"	e	enum:__anon16
+PTP_MASTER	constants.h	/^	PTP_LISTENING,		PTP_PRE_MASTER,		PTP_MASTER,$/;"	e	enum:__anon16
+PTP_MULTICAST_ADDR	dep/net.c	/^const mac_addr_t PTP_MULTICAST_ADDR = {0x01, 0x1b, 0x19, 0 , 0, 0};$/;"	v
+PTP_PASSIVE	constants.h	/^	PTP_PASSIVE,		PTP_UNCALIBRATED,	PTP_SLAVE$/;"	e	enum:__anon16
+PTP_PRE_MASTER	constants.h	/^	PTP_LISTENING,		PTP_PRE_MASTER,		PTP_MASTER,$/;"	e	enum:__anon16
+PTP_SLAVE	constants.h	/^	PTP_PASSIVE,		PTP_UNCALIBRATED,	PTP_SLAVE$/;"	e	enum:__anon16
+PTP_UNCALIBRATED	constants.h	/^	PTP_PASSIVE,		PTP_UNCALIBRATED,	PTP_SLAVE$/;"	e	enum:__anon16
+PTP_UNICAST_ADDR	dep/net.c	/^const mac_addr_t PTP_UNICAST_ADDR   = {0x01, 0x1b, 0x19, 0 , 0, 0};$/;"	v
+PTP_UUID_LENGTH	dep/constants_dep.h	86;"	d
+PdelayReqHeader	datatypes.h	/^	MsgHeader		PdelayReqHeader;$/;"	m	struct:__anon50	access:public
+PortAdress	datatypes.h	/^} PortAdress;$/;"	t	typeref:struct:__anon30
+PortIdentity	datatypes.h	/^} PortIdentity;$/;"	t	typeref:struct:__anon29
+PtpClockDS	datatypes.h	/^} PtpClockDS;$/;"	t	typeref:struct:__anon49
+PtpPortDS	datatypes.h	/^} PtpPortDS;$/;"	t	typeref:struct:__anon50
+RESPONSE	constants.h	/^	RESPONSE,$/;"	e	enum:__anon21
+RE_INIT	constants.h	/^	RE_INIT,$/;"	e	enum:__anon25
+RunTimeOpts	datatypes.h	/^} RunTimeOpts;$/;"	t	typeref:struct:__anon53
+SCREEN_BUFSZ	dep/constants_dep.h	102;"	d
+SCREEN_MAXSZ	dep/constants_dep.h	103;"	d
+SECONDARY_SLAVE	constants.h	/^	SECONDARY_SLAVE ,$/;"	e	enum:__anon24
+SEND_CALIBRATION_PATTERN	constants.h	154;"	d
+SET	constants.h	/^	SET,$/;"	e	enum:__anon21
+SIGNALING	constants.h	/^	SIGNALING,$/;"	e	enum:__anon17
+SLAVE	constants.h	/^	SLAVE$/;"	e	enum:__anon13
+SLAVE_ONLY	constants.h	68;"	d
+SLAVE_PRESENT	constants.h	/^	SLAVE_PRESENT	= 0x1000,$/;"	e	enum:__anon23
+SUBDOMAIN_ADDRESS_LENGTH	dep/constants_dep.h	84;"	d
+SYNC	constants.h	/^	SYNC=0x0,$/;"	e	enum:__anon17
+SYNC_INTERVAL_TIMER	constants.h	/^	SYNC_INTERVAL_TIMER,\/**<\\brief Timer handling Interval between master sends two Syncs messages *\/$/;"	e	enum:__anon15
+SYNC_LENGTH	constants.h	77;"	d
+TERRESTRIAL_RADIO	constants.h	/^	TERRESTRIAL_RADIO=0x30,$/;"	e	enum:__anon12
+TIMER_ARRAY_SIZE	constants.h	/^	TIMER_ARRAY_SIZE  \/* this one is non-spec *\/$/;"	e	enum:__anon15
+TLV	datatypes.h	/^} TLV;$/;"	t	typeref:struct:__anon32
+TLV_TYPE_ORG_EXTENSION	constants.h	141;"	d
+TRACE_ALL	dep/trace.h	24;"	d
+TRACE_ARITH	dep/trace.h	19;"	d
+TRACE_BMC	dep/trace.h	15;"	d
+TRACE_ERROR	dep/trace.h	16;"	d
+TRACE_MSG	dep/trace.h	12;"	d
+TRACE_NET	dep/trace.h	11;"	d
+TRACE_PROTO	dep/trace.h	9;"	d
+TRACE_PTPD_MAIN	dep/trace.h	20;"	d
+TRACE_SERVO	dep/trace.h	14;"	d
+TRACE_SPECIAL_DBG	dep/trace.h	21;"	d
+TRACE_STARTUP	dep/trace.h	18;"	d
+TRACE_SYS	dep/trace.h	13;"	d
+TRACE_WRPC	dep/trace.h	22;"	d
+TRACE_WR_IPC	dep/trace.h	17;"	d
+TRACE_WR_PROTO	dep/trace.h	10;"	d
+TRUE	dep/datatypes_dep.h	/^typedef enum {FALSE=0, TRUE} Boolean;$/;"	e	enum:__anon2
+TWO_STEP_FLAG	constants.h	67;"	d
+TimeInternal	datatypes.h	/^} TimeInternal;$/;"	t	typeref:struct:__anon46
+TimeInterval	datatypes.h	/^} TimeInterval;$/;"	t	typeref:struct:__anon26
+Timestamp	datatypes.h	/^} Timestamp;$/;"	t	typeref:struct:__anon28
+UDP_IPV4	constants.h	/^	UDP_IPV4=1,$/;"	e	enum:__anon11
+UDP_IPV6	constants.h	/^	UDP_IPV6,IEE_802_3,$/;"	e	enum:__anon11
+UInteger16	dep/datatypes_dep.h	/^typedef unsigned short UInteger16;$/;"	t
+UInteger32	dep/datatypes_dep.h	/^typedef unsigned int UInteger32;$/;"	t
+UInteger4	dep/datatypes_dep.h	/^typedef unsigned char UInteger4;$/;"	t
+UInteger48	dep/datatypes_dep.h	/^} UInteger48;$/;"	t	typeref:struct:__anon3
+UInteger64	dep/datatypes_dep.h	/^} UInteger64;$/;"	t	typeref:struct:__anon5
+UInteger8	dep/datatypes_dep.h	/^typedef unsigned char UInteger8;$/;"	t
+UNCALIBRATED	constants.h	/^	UNCALIBRATED,$/;"	e	enum:__anon13
+VERSION_PTP	constants.h	66;"	d
+WRS_CALIBRATED	constants.h	/^	WRS_CALIBRATION,  WRS_CALIBRATED,  WRS_RESP_CALIB_REQ ,WRS_WR_LINK_ON,$/;"	e	enum:__anon22
+WRS_CALIBRATION	constants.h	/^	WRS_CALIBRATION,  WRS_CALIBRATED,  WRS_RESP_CALIB_REQ ,WRS_WR_LINK_ON,$/;"	e	enum:__anon22
+WRS_CALIBRATION_1	constants.h	/^	WRS_CALIBRATION_1,$/;"	e	enum:__anon22
+WRS_CALIBRATION_2	constants.h	/^	WRS_CALIBRATION_2,$/;"	e	enum:__anon22
+WRS_CALIBRATION_3	constants.h	/^	WRS_CALIBRATION_3,$/;"	e	enum:__anon22
+WRS_CALIBRATION_4	constants.h	/^	WRS_CALIBRATION_4,$/;"	e	enum:__anon22
+WRS_CALIBRATION_5	constants.h	/^	WRS_CALIBRATION_5,$/;"	e	enum:__anon22
+WRS_CALIBRATION_6	constants.h	/^	WRS_CALIBRATION_6,$/;"	e	enum:__anon22
+WRS_CALIBRATION_7	constants.h	/^	WRS_CALIBRATION_7,$/;"	e	enum:__anon22
+WRS_CALIBRATION_8	constants.h	/^	WRS_CALIBRATION_8,$/;"	e	enum:__anon22
+WRS_IDLE	constants.h	/^	WRS_IDLE,$/;"	e	enum:__anon22
+WRS_LOCKED	constants.h	/^	WRS_PRESENT = 0,  WRS_S_LOCK, WRS_M_LOCK,  WRS_LOCKED,$/;"	e	enum:__anon22
+WRS_M_LOCK	constants.h	/^	WRS_PRESENT = 0,  WRS_S_LOCK, WRS_M_LOCK,  WRS_LOCKED,$/;"	e	enum:__anon22
+WRS_PRESENT	constants.h	/^	WRS_PRESENT = 0,  WRS_S_LOCK, WRS_M_LOCK,  WRS_LOCKED,$/;"	e	enum:__anon22
+WRS_RESP_CALIB_REQ	constants.h	/^	WRS_CALIBRATION,  WRS_CALIBRATED,  WRS_RESP_CALIB_REQ ,WRS_WR_LINK_ON,$/;"	e	enum:__anon22
+WRS_RESP_CALIB_REQ_1	constants.h	/^	WRS_RESP_CALIB_REQ_1,$/;"	e	enum:__anon22
+WRS_RESP_CALIB_REQ_2	constants.h	/^	WRS_RESP_CALIB_REQ_2,$/;"	e	enum:__anon22
+WRS_RESP_CALIB_REQ_3	constants.h	/^	WRS_RESP_CALIB_REQ_3,$/;"	e	enum:__anon22
+WRS_S_LOCK	constants.h	/^	WRS_PRESENT = 0,  WRS_S_LOCK, WRS_M_LOCK,  WRS_LOCKED,$/;"	e	enum:__anon22
+WRS_S_LOCK_1	constants.h	/^	WRS_S_LOCK_1,$/;"	e	enum:__anon22
+WRS_S_LOCK_2	constants.h	/^	WRS_S_LOCK_2,$/;"	e	enum:__anon22
+WRS_WR_LINK_ON	constants.h	/^	WRS_CALIBRATION,  WRS_CALIBRATED,  WRS_RESP_CALIB_REQ ,WRS_WR_LINK_ON,$/;"	e	enum:__anon22
+WR_ANNOUNCE_LENGTH	constants.h	119;"	d
+WR_ANNOUNCE_TLV_LENGTH	constants.h	117;"	d
+WR_CMD	constants.h	/^	WR_CMD, \/\/White Rabbit$/;"	e	enum:__anon21
+WR_DEFAULT_CAL_PATTERN	constants.h	108;"	d
+WR_DEFAULT_CAL_PATTERN_LEN	constants.h	109;"	d
+WR_DEFAULT_CAL_PERIOD	constants.h	107;"	d
+WR_DEFAULT_INIT_REPEAT	constants.h	113;"	d
+WR_DEFAULT_PHY_CALIBRATION_REQUIRED	constants.h	152;"	d
+WR_DEFAULT_STATE_REPEAT	constants.h	112;"	d
+WR_DEFAULT_STATE_TIMEOUT_MS	constants.h	111;"	d
+WR_IS_CALIBRATED	constants.h	100;"	d
+WR_IS_WR_MODE	constants.h	101;"	d
+WR_MANAGEMENT_LENGTH	constants.h	121;"	d
+WR_MANAGEMENT_TLV_LENGTH	constants.h	120;"	d
+WR_MASTER	constants.h	/^	WR_MASTER = PTPD_NETIF_TX, \/\/ just for convenient useage with ptpd_netif interface$/;"	e	enum:__anon20
+WR_MASTER_CLOCK_CLASS	constants.h	135;"	d
+WR_MASTER_ONLY_CLOCK_CLASS	constants.h	137;"	d
+WR_MASTER_PRIORITY1	constants.h	106;"	d
+WR_MODE_AUTO	constants.h	/^	WR_MODE_AUTO= 0x4, \/\/ only for ptpx - not in the spec$/;"	e	enum:__anon19
+WR_MODE_ON	constants.h	/^	WR_MODE_ON,	$/;"	e	enum:__anon23
+WR_M_AND_S	constants.h	/^	WR_M_AND_S  = 0x3,$/;"	e	enum:__anon19
+WR_M_ONLY	constants.h	/^	WR_M_ONLY   = 0x1,$/;"	e	enum:__anon19
+WR_NODE	constants.h	99;"	d
+WR_NODE_MODE	constants.h	102;"	d
+WR_PORT_NUMBER	constants.h	132;"	d
+WR_PRIORITY1	constants.h	143;"	d
+WR_PROTOCOL_H_	wr_protocol.h	2;"	d
+WR_SERVO_OFFSET_STABILITY_THRESHOLD	dep/wr_servo.c	26;"	d	file:
+WR_SIGNALING_MSG_BASE_LENGTH	constants.h	149;"	d
+WR_SLAVE	constants.h	/^	WR_SLAVE  = PTPD_NETIF_RX, \/\/ just for convenient useage with ptpd_netif interface$/;"	e	enum:__anon20
+WR_SLAVE_CLOCK_CLASS	constants.h	134;"	d
+WR_SYNC_NSEC	dep/wr_servo.c	19;"	d	file:
+WR_SYNC_PHASE	dep/wr_servo.c	21;"	d	file:
+WR_SYNC_TAI	dep/wr_servo.c	20;"	d	file:
+WR_S_ONLY	constants.h	/^	WR_S_ONLY   = 0x2, $/;"	e	enum:__anon19
+WR_TIMER_ARRAY_SIZE	constants.h	/^	WR_TIMER_ARRAY_SIZE, \/\/number of states which has timeouts$/;"	e	enum:__anon22
+WR_TLV_MAGIC_NUMBER	constants.h	146;"	d
+WR_TLV_ORGANIZATION_ID	constants.h	145;"	d
+WR_TLV_TYPE	constants.h	104;"	d
+WR_TLV_WR_VERSION_NUMBER	constants.h	147;"	d
+WR_TRACK_PHASE	dep/wr_servo.c	22;"	d	file:
+WR_WAIT_OFFSET_STABLE	dep/wr_servo.c	24;"	d	file:
+WR_WAIT_SYNC_IDLE	dep/wr_servo.c	23;"	d	file:
+ZERO_ADDR	dep/net.c	/^const mac_addr_t ZERO_ADDR          = {0x00, 0x00, 0x00, 0x00, 0x001, 0x00};$/;"	v
+_PTPD_DPRINTF	dep/trace.h	29;"	d
+_PTPD_DPRINTF	dep/trace.h	31;"	d
+__PTPD_EXPORTS_H	ptpd_exports.h	2;"	d
+__PTPD_TRACE_H	dep/trace.h	2;"	d
+__anon1::cur_offset	ptpd_exports.h	/^	int64_t cur_offset;$/;"	m	struct:__anon1	access:public
+__anon1::cur_setpoint	ptpd_exports.h	/^	int64_t cur_setpoint;$/;"	m	struct:__anon1	access:public
+__anon1::cur_skew	ptpd_exports.h	/^	int64_t cur_skew;$/;"	m	struct:__anon1	access:public
+__anon1::delay_ms	ptpd_exports.h	/^	int64_t delay_ms;$/;"	m	struct:__anon1	access:public
+__anon1::delta_rx_m	ptpd_exports.h	/^	int64_t delta_rx_m;$/;"	m	struct:__anon1	access:public
+__anon1::delta_rx_s	ptpd_exports.h	/^	int64_t delta_rx_s;$/;"	m	struct:__anon1	access:public
+__anon1::delta_tx_m	ptpd_exports.h	/^	int64_t delta_tx_m;$/;"	m	struct:__anon1	access:public
+__anon1::delta_tx_s	ptpd_exports.h	/^	int64_t delta_tx_s;$/;"	m	struct:__anon1	access:public
+__anon1::fiber_asymmetry	ptpd_exports.h	/^	int64_t fiber_asymmetry;$/;"	m	struct:__anon1	access:public
+__anon1::mu	ptpd_exports.h	/^	int64_t mu;$/;"	m	struct:__anon1	access:public
+__anon1::slave_servo_state	ptpd_exports.h	/^	char slave_servo_state[32];$/;"	m	struct:__anon1	access:public
+__anon1::sync_source	ptpd_exports.h	/^	char sync_source[32];$/;"	m	struct:__anon1	access:public
+__anon1::total_asymmetry	ptpd_exports.h	/^	int64_t total_asymmetry;$/;"	m	struct:__anon1	access:public
+__anon1::tracking_enabled	ptpd_exports.h	/^	int tracking_enabled;$/;"	m	struct:__anon1	access:public
+__anon1::update_count	ptpd_exports.h	/^	int64_t update_count;$/;"	m	struct:__anon1	access:public
+__anon1::valid	ptpd_exports.h	/^	int valid;$/;"	m	struct:__anon1	access:public
+__anon26::scaledNanoseconds	datatypes.h	/^	Integer64 scaledNanoseconds;$/;"	m	struct:__anon26	access:public
+__anon27::scaledPicoseconds	datatypes.h	/^	UInteger64 scaledPicoseconds;$/;"	m	struct:__anon27	access:public
+__anon28::nanosecondsField	datatypes.h	/^	UInteger32 nanosecondsField;$/;"	m	struct:__anon28	access:public
+__anon28::secondsField	datatypes.h	/^	UInteger48 secondsField;$/;"	m	struct:__anon28	access:public
+__anon29::clockIdentity	datatypes.h	/^	ClockIdentity clockIdentity;$/;"	m	struct:__anon29	access:public
+__anon29::portNumber	datatypes.h	/^	UInteger16 portNumber;$/;"	m	struct:__anon29	access:public
+__anon30::adressField	datatypes.h	/^	Octet* adressField;$/;"	m	struct:__anon30	access:public
+__anon30::adressLength	datatypes.h	/^	UInteger16 adressLength;$/;"	m	struct:__anon30	access:public
+__anon30::networkProtocol	datatypes.h	/^	Enumeration16 networkProtocol;$/;"	m	struct:__anon30	access:public
+__anon31::clockAccuracy	datatypes.h	/^	Enumeration8 clockAccuracy;$/;"	m	struct:__anon31	access:public
+__anon31::clockClass	datatypes.h	/^	UInteger8 clockClass;$/;"	m	struct:__anon31	access:public
+__anon31::offsetScaledLogVariance	datatypes.h	/^	UInteger16 offsetScaledLogVariance;$/;"	m	struct:__anon31	access:public
+__anon32::lengthField	datatypes.h	/^	UInteger16 lengthField;$/;"	m	struct:__anon32	access:public
+__anon32::tlvType	datatypes.h	/^	Enumeration16 tlvType;$/;"	m	struct:__anon32	access:public
+__anon32::valueField	datatypes.h	/^	Octet* valueField;$/;"	m	struct:__anon32	access:public
+__anon33::lengthField	datatypes.h	/^	UInteger8 lengthField;$/;"	m	struct:__anon33	access:public
+__anon33::textField	datatypes.h	/^	Octet* textField;$/;"	m	struct:__anon33	access:public
+__anon34::faultDescription	datatypes.h	/^	PTPText faultDescription;$/;"	m	struct:__anon34	access:public
+__anon34::faultName	datatypes.h	/^	PTPText faultName;$/;"	m	struct:__anon34	access:public
+__anon34::faultRecordLength	datatypes.h	/^	UInteger16 faultRecordLength;$/;"	m	struct:__anon34	access:public
+__anon34::faultTime	datatypes.h	/^	Timestamp faultTime;$/;"	m	struct:__anon34	access:public
+__anon34::faultValue	datatypes.h	/^	PTPText faultValue;$/;"	m	struct:__anon34	access:public
+__anon34::severityCode	datatypes.h	/^	Enumeration8 severityCode;$/;"	m	struct:__anon34	access:public
+__anon35::controlField	datatypes.h	/^	UInteger8 controlField;$/;"	m	struct:__anon35	access:public
+__anon35::correctionfield	datatypes.h	/^	Integer64 correctionfield;$/;"	m	struct:__anon35	access:public
+__anon35::domainNumber	datatypes.h	/^	UInteger8 domainNumber;$/;"	m	struct:__anon35	access:public
+__anon35::flagField	datatypes.h	/^	Octet flagField[2];$/;"	m	struct:__anon35	access:public
+__anon35::logMessageInterval	datatypes.h	/^	Integer8 logMessageInterval;$/;"	m	struct:__anon35	access:public
+__anon35::messageLength	datatypes.h	/^	UInteger16 messageLength;$/;"	m	struct:__anon35	access:public
+__anon35::messageType	datatypes.h	/^	Enumeration4 messageType;$/;"	m	struct:__anon35	access:public
+__anon35::sequenceId	datatypes.h	/^	UInteger16 sequenceId;$/;"	m	struct:__anon35	access:public
+__anon35::sourcePortIdentity	datatypes.h	/^	PortIdentity sourcePortIdentity;$/;"	m	struct:__anon35	access:public
+__anon35::transportSpecific	datatypes.h	/^	Nibble transportSpecific;$/;"	m	struct:__anon35	access:public
+__anon35::versionPTP	datatypes.h	/^	UInteger4 versionPTP;$/;"	m	struct:__anon35	access:public
+__anon36::currentUtcOffset	datatypes.h	/^	Integer16 currentUtcOffset;$/;"	m	struct:__anon36	access:public
+__anon36::grandmasterClockQuality	datatypes.h	/^	ClockQuality grandmasterClockQuality;$/;"	m	struct:__anon36	access:public
+__anon36::grandmasterIdentity	datatypes.h	/^	ClockIdentity grandmasterIdentity;$/;"	m	struct:__anon36	access:public
+__anon36::grandmasterPriority1	datatypes.h	/^	UInteger8 grandmasterPriority1;$/;"	m	struct:__anon36	access:public
+__anon36::grandmasterPriority2	datatypes.h	/^	UInteger8 grandmasterPriority2;$/;"	m	struct:__anon36	access:public
+__anon36::originTimestamp	datatypes.h	/^	Timestamp originTimestamp;$/;"	m	struct:__anon36	access:public
+__anon36::stepsRemoved	datatypes.h	/^	UInteger16 stepsRemoved;$/;"	m	struct:__anon36	access:public
+__anon36::timeSource	datatypes.h	/^	Enumeration8 timeSource;$/;"	m	struct:__anon36	access:public
+__anon36::wr_flags	datatypes.h	/^	UInteger8 wr_flags;$/;"	m	struct:__anon36	access:public
+__anon37::originTimestamp	datatypes.h	/^	Timestamp originTimestamp;$/;"	m	struct:__anon37	access:public
+__anon38::originTimestamp	datatypes.h	/^	Timestamp originTimestamp;$/;"	m	struct:__anon38	access:public
+__anon39::receiveTimestamp	datatypes.h	/^	Timestamp receiveTimestamp;$/;"	m	struct:__anon39	access:public
+__anon39::requestingPortIdentity	datatypes.h	/^	PortIdentity requestingPortIdentity;$/;"	m	struct:__anon39	access:public
+__anon3::lsb	dep/datatypes_dep.h	/^	unsigned int lsb;$/;"	m	struct:__anon3	access:public
+__anon3::msb	dep/datatypes_dep.h	/^	unsigned short msb;$/;"	m	struct:__anon3	access:public
+__anon40::preciseOriginTimestamp	datatypes.h	/^	Timestamp preciseOriginTimestamp;$/;"	m	struct:__anon40	access:public
+__anon41::originTimestamp	datatypes.h	/^	Timestamp originTimestamp;$/;"	m	struct:__anon41	access:public
+__anon42::requestReceiptTimestamp	datatypes.h	/^	Timestamp requestReceiptTimestamp;$/;"	m	struct:__anon42	access:public
+__anon42::requestingPortIdentity	datatypes.h	/^	PortIdentity requestingPortIdentity;$/;"	m	struct:__anon42	access:public
+__anon43::requestingPortIdentity	datatypes.h	/^	PortIdentity requestingPortIdentity;$/;"	m	struct:__anon43	access:public
+__anon43::responseOriginTimestamp	datatypes.h	/^	Timestamp responseOriginTimestamp;$/;"	m	struct:__anon43	access:public
+__anon44::targetPortIdentity	datatypes.h	/^	PortIdentity targetPortIdentity;$/;"	m	struct:__anon44	access:public
+__anon44::tlv	datatypes.h	/^	char* tlv;$/;"	m	struct:__anon44	access:public
+__anon45::actionField	datatypes.h	/^	Enumeration4 actionField;$/;"	m	struct:__anon45	access:public
+__anon45::boundaryHops	datatypes.h	/^	UInteger8 boundaryHops;$/;"	m	struct:__anon45	access:public
+__anon45::startingBoundaryHops	datatypes.h	/^	UInteger8 startingBoundaryHops;$/;"	m	struct:__anon45	access:public
+__anon45::targetPortIdentity	datatypes.h	/^	PortIdentity targetPortIdentity;$/;"	m	struct:__anon45	access:public
+__anon45::tlv	datatypes.h	/^	char* tlv;$/;"	m	struct:__anon45	access:public
+__anon46::correct	datatypes.h	/^	int correct;$/;"	m	struct:__anon46	access:public
+__anon46::nanoseconds	datatypes.h	/^	Integer32 nanoseconds;$/;"	m	struct:__anon46	access:public
+__anon46::phase	datatypes.h	/^	Integer32 phase;$/;"	m	struct:__anon46	access:public
+__anon46::seconds	datatypes.h	/^	Integer32 seconds;$/;"	m	struct:__anon46	access:public
+__anon47::interval	datatypes.h	/^	int interval;$/;"	m	struct:__anon47	access:public
+__anon47::name	datatypes.h	/^	char name [16];$/;"	m	struct:__anon47	access:public
+__anon47::t_start	datatypes.h	/^	unsigned long long t_start;$/;"	m	struct:__anon47	access:public
+__anon48::announce	datatypes.h	/^	MsgAnnounce  announce;$/;"	m	struct:__anon48	access:public
+__anon48::foreignMasterAnnounceMessages	datatypes.h	/^	UInteger16 foreignMasterAnnounceMessages;$/;"	m	struct:__anon48	access:public
+__anon48::foreignMasterPortIdentity	datatypes.h	/^	PortIdentity foreignMasterPortIdentity;$/;"	m	struct:__anon48	access:public
+__anon48::header	datatypes.h	/^	MsgHeader    header;$/;"	m	struct:__anon48	access:public
+__anon48::receptionPortNumber	datatypes.h	/^	UInteger16 receptionPortNumber;$/;"	m	struct:__anon48	access:public
+__anon49::Ebest	datatypes.h	/^	Integer16  Ebest;$/;"	m	struct:__anon49	access:public
+__anon49::bestForeign	datatypes.h	/^	ForeignMasterRecord *bestForeign;$/;"	m	struct:__anon49	access:public
+__anon49::clockClassValidityTimeout	datatypes.h	/^	UInteger8 clockClassValidityTimeout;$/;"	m	struct:__anon49	access:public
+__anon49::clockClassValidityTimer	datatypes.h	/^	IntervalTimer clockClassValidityTimer;$/;"	m	struct:__anon49	access:public
+__anon49::clockQuality	datatypes.h	/^	ClockQuality clockQuality;$/;"	m	struct:__anon49	access:public
+__anon49::currentUtcOffset	datatypes.h	/^	Integer16 currentUtcOffset;$/;"	m	struct:__anon49	access:public
+__anon49::currentUtcOffsetValid	datatypes.h	/^	Boolean currentUtcOffsetValid;$/;"	m	struct:__anon49	access:public
+__anon49::domainNumber	datatypes.h	/^	UInteger8 domainNumber;$/;"	m	struct:__anon49	access:public
+__anon49::frequencyTraceable	datatypes.h	/^	Boolean frequencyTraceable;$/;"	m	struct:__anon49	access:public
+__anon49::globalStateDecisionEvent	datatypes.h	/^	Boolean globalStateDecisionEvent;$/;"	m	struct:__anon49	access:public
+__anon49::grandmasterClockQuality	datatypes.h	/^	ClockQuality grandmasterClockQuality;$/;"	m	struct:__anon49	access:public
+__anon49::grandmasterIdentity	datatypes.h	/^	ClockIdentity grandmasterIdentity;$/;"	m	struct:__anon49	access:public
+__anon49::grandmasterPriority1	datatypes.h	/^	UInteger8 grandmasterPriority1;$/;"	m	struct:__anon49	access:public
+__anon49::grandmasterPriority2	datatypes.h	/^	UInteger8 grandmasterPriority2;$/;"	m	struct:__anon49	access:public
+__anon49::leap59	datatypes.h	/^	Boolean leap59;$/;"	m	struct:__anon49	access:public
+__anon49::leap61	datatypes.h	/^	Boolean leap61;$/;"	m	struct:__anon49	access:public
+__anon49::meanPathDelay	datatypes.h	/^	TimeInternal meanPathDelay;$/;"	m	struct:__anon49	access:public
+__anon49::numberPorts	datatypes.h	/^	UInteger16 numberPorts;$/;"	m	struct:__anon49	access:public
+__anon49::observedParentClockPhaseChangeRate	datatypes.h	/^	Integer32 observedParentClockPhaseChangeRate;$/;"	m	struct:__anon49	access:public
+__anon49::observedParentOffsetScaledLogVariance	datatypes.h	/^	UInteger16 observedParentOffsetScaledLogVariance;$/;"	m	struct:__anon49	access:public
+__anon49::offsetFromMaster	datatypes.h	/^	TimeInternal offsetFromMaster;$/;"	m	struct:__anon49	access:public
+__anon49::parentPortIdentity	datatypes.h	/^	PortIdentity parentPortIdentity;$/;"	m	struct:__anon49	access:public
+__anon49::parentStats	datatypes.h	/^	Boolean parentStats;$/;"	m	struct:__anon49	access:public
+__anon49::primarySlavePortNumber	datatypes.h	/^	UInteger16 primarySlavePortNumber;$/;"	m	struct:__anon49	access:public
+__anon49::priority1	datatypes.h	/^	UInteger8 priority1;$/;"	m	struct:__anon49	access:public
+__anon49::priority2	datatypes.h	/^	UInteger8 priority2;$/;"	m	struct:__anon49	access:public
+__anon49::ptpTimescale	datatypes.h	/^	Boolean ptpTimescale;$/;"	m	struct:__anon49	access:public
+__anon49::secondBestForeign	datatypes.h	/^	ForeignMasterRecord *secondBestForeign;$/;"	m	struct:__anon49	access:public
+__anon49::secondarySlavePortNumber	datatypes.h	/^	UInteger16 secondarySlavePortNumber;$/;"	m	struct:__anon49	access:public
+__anon49::stepsRemoved	datatypes.h	/^	UInteger16 stepsRemoved;$/;"	m	struct:__anon49	access:public
+__anon49::timeSource	datatypes.h	/^	Enumeration8 timeSource;$/;"	m	struct:__anon49	access:public
+__anon49::timeTraceable	datatypes.h	/^	Boolean timeTraceable;$/;"	m	struct:__anon49	access:public
+__anon49::twoStepFlag	datatypes.h	/^	Boolean twoStepFlag;$/;"	m	struct:__anon49	access:public
+__anon4::lsb	dep/datatypes_dep.h	/^	unsigned int lsb;$/;"	m	struct:__anon4	access:public
+__anon4::msb	dep/datatypes_dep.h	/^	int msb;$/;"	m	struct:__anon4	access:public
+__anon50::PdelayReqHeader	datatypes.h	/^	MsgHeader		PdelayReqHeader;$/;"	m	struct:__anon50	access:public
+__anon50::__anon51::announce	datatypes.h	/^		MsgAnnounce  announce;$/;"	m	union:__anon50::__anon51	access:public
+__anon50::__anon51::follow	datatypes.h	/^		MsgFollowUp  follow;$/;"	m	union:__anon50::__anon51	access:public
+__anon50::__anon51::manage	datatypes.h	/^		MsgManagement  manage;$/;"	m	union:__anon50::__anon51	access:public
+__anon50::__anon51::preq	datatypes.h	/^		MsgPDelayReq  preq;$/;"	m	union:__anon50::__anon51	access:public
+__anon50::__anon51::presp	datatypes.h	/^		MsgPDelayResp  presp;$/;"	m	union:__anon50::__anon51	access:public
+__anon50::__anon51::prespfollow	datatypes.h	/^		MsgPDelayRespFollowUp  prespfollow;$/;"	m	union:__anon50::__anon51	access:public
+__anon50::__anon51::req	datatypes.h	/^		MsgDelayReq  req;$/;"	m	union:__anon50::__anon51	access:public
+__anon50::__anon51::resp	datatypes.h	/^		MsgDelayResp resp;$/;"	m	union:__anon50::__anon51	access:public
+__anon50::__anon51::signaling	datatypes.h	/^		MsgSignaling signaling;$/;"	m	union:__anon50::__anon51	access:public
+__anon50::__anon51::sync	datatypes.h	/^		MsgSync  sync;$/;"	m	union:__anon50::__anon51	access:public
+__anon50::__anon52::announceInterval	datatypes.h	/^		IntervalTimer announceInterval;$/;"	m	struct:__anon50::__anon52	access:public
+__anon50::__anon52::announceReceipt	datatypes.h	/^		IntervalTimer announceReceipt;$/;"	m	struct:__anon50::__anon52	access:public
+__anon50::__anon52::delayReq	datatypes.h	/^		IntervalTimer delayReq;$/;"	m	struct:__anon50::__anon52	access:public
+__anon50::__anon52::pdelayReq	datatypes.h	/^		IntervalTimer pdelayReq;$/;"	m	struct:__anon50::__anon52	access:public
+__anon50::__anon52::pdelayResp	datatypes.h	/^        IntervalTimer pdelayResp;$/;"	m	struct:__anon50::__anon52	access:public
+__anon50::__anon52::sync	datatypes.h	/^		IntervalTimer sync;$/;"	m	struct:__anon50::__anon52	access:public
+__anon50::announceReceiptTimeout	datatypes.h	/^	UInteger8 announceReceiptTimeout;$/;"	m	struct:__anon50	access:public
+__anon50::calPeriod	datatypes.h	/^	UInteger32 calPeriod;\/\/[us]$/;"	m	struct:__anon50	access:public
+__anon50::calRetry	datatypes.h	/^	UInteger8 calRetry;$/;"	m	struct:__anon50	access:public
+__anon50::calibrated	datatypes.h	/^	Boolean calibrated;$/;"	m	struct:__anon50	access:public
+__anon50::clockIdentity	datatypes.h	/^	ClockIdentity clockIdentity; \/\/TODO(5): should be in clockDS$/;"	m	struct:__anon50	access:public
+__anon50::currentWRstateCnt	datatypes.h	/^	UInteger8 currentWRstateCnt;$/;"	m	struct:__anon50	access:public
+__anon50::current_rx_ts	datatypes.h	/^	wr_timestamp_t current_rx_ts;$/;"	m	struct:__anon50	access:public
+__anon50::current_tx_ts	datatypes.h	/^	wr_timestamp_t current_tx_ts;$/;"	m	struct:__anon50	access:public
+__anon50::delayMS	datatypes.h	/^	TimeInternal    delayMS;$/;"	m	struct:__anon50	access:public
+__anon50::delayMechanism	datatypes.h	/^	Enumeration8 delayMechanism;$/;"	m	struct:__anon50	access:public
+__anon50::delayReqHeader	datatypes.h	/^	MsgHeader		delayReqHeader;$/;"	m	struct:__anon50	access:public
+__anon50::delayReq_tx_ts	datatypes.h	/^	wr_timestamp_t delayReq_tx_ts;  \/\/ t3 S (E2E)$/;"	m	struct:__anon50	access:public
+__anon50::delaySM	datatypes.h	/^	TimeInternal	delaySM;$/;"	m	struct:__anon50	access:public
+__anon50::delay_req_receive_time	datatypes.h	/^	TimeInternal  delay_req_receive_time;$/;"	m	struct:__anon50	access:public
+__anon50::delay_req_send_time	datatypes.h	/^	TimeInternal  delay_req_send_time;$/;"	m	struct:__anon50	access:public
+__anon50::deltaRx	datatypes.h	/^	FixedDelta deltaRx; $/;"	m	struct:__anon50	access:public
+__anon50::deltaTx	datatypes.h	/^	FixedDelta deltaTx; $/;"	m	struct:__anon50	access:public
+__anon50::doRestart	datatypes.h	/^	Boolean doRestart;$/;"	m	struct:__anon50	access:public
+__anon50::foreign	datatypes.h	/^	ForeignMasterRecord *foreign;$/;"	m	struct:__anon50	access:public
+__anon50::foreign_record_best	datatypes.h	/^	Integer16  foreign_record_best;$/;"	m	struct:__anon50	access:public
+__anon50::foreign_record_i	datatypes.h	/^	Integer16  foreign_record_i;$/;"	m	struct:__anon50	access:public
+__anon50::isSecondarySlave	datatypes.h	/^	Boolean isSecondarySlave;$/;"	m	struct:__anon50	access:public
+__anon50::lastPdelayRespCorrectionField	datatypes.h	/^	TimeInternal  lastPdelayRespCorrectionField;$/;"	m	struct:__anon50	access:public
+__anon50::lastSyncCorrectionField	datatypes.h	/^	TimeInternal  lastSyncCorrectionField;$/;"	m	struct:__anon50	access:public
+__anon50::linkUP	datatypes.h	/^	Boolean linkUP;$/;"	m	struct:__anon50	access:public
+__anon50::logAnnounceInterval	datatypes.h	/^	Integer8 logAnnounceInterval;$/;"	m	struct:__anon50	access:public
+__anon50::logMinDelayReqInterval	datatypes.h	/^	Integer8 logMinDelayReqInterval;$/;"	m	struct:__anon50	access:public
+__anon50::logMinPdelayReqInterval	datatypes.h	/^	Integer8 logMinPdelayReqInterval;$/;"	m	struct:__anon50	access:public
+__anon50::logSyncInterval	datatypes.h	/^	Integer8 logSyncInterval;$/;"	m	struct:__anon50	access:public
+__anon50::master_to_slave_delay	datatypes.h	/^	TimeInternal  master_to_slave_delay;$/;"	m	struct:__anon50	access:public
+__anon50::max_foreign_records	datatypes.h	/^	Integer16  max_foreign_records;$/;"	m	struct:__anon50	access:public
+__anon50::message_activity	datatypes.h	/^	Boolean message_activity;$/;"	m	struct:__anon50	access:public
+__anon50::msgIbuf	datatypes.h	/^	Octet msgIbuf[PACKET_SIZE];$/;"	m	struct:__anon50	access:public
+__anon50::msgObuf	datatypes.h	/^	Octet msgObuf[PACKET_SIZE];$/;"	m	struct:__anon50	access:public
+__anon50::msgTmp	datatypes.h	/^	} msgTmp;$/;"	m	struct:__anon50	typeref:union:__anon50::__anon51	access:public
+__anon50::msgTmpHeader	datatypes.h	/^	MsgHeader msgTmpHeader;$/;"	m	struct:__anon50	access:public
+__anon50::msgTmpManagementId	datatypes.h	/^	Enumeration16 msgTmpManagementId;	$/;"	m	struct:__anon50	access:public
+__anon50::msgTmpWrMessageID	datatypes.h	/^	Enumeration16 msgTmpWrMessageID;	$/;"	m	struct:__anon50	access:public
+__anon50::netPath	datatypes.h	/^	NetPath netPath;$/;"	m	struct:__anon50	access:public
+__anon50::number_foreign_records	datatypes.h	/^	UInteger16 number_foreign_records;$/;"	m	struct:__anon50	access:public
+__anon50::observed_drift	datatypes.h	/^	Integer32 	observed_drift;$/;"	m	struct:__anon50	access:public
+__anon50::ofm_filt	datatypes.h	/^	offset_from_master_filter  ofm_filt;$/;"	m	struct:__anon50	access:public
+__anon50::otherNodeCalPeriod	datatypes.h	/^	UInteger32 otherNodeCalPeriod;   $/;"	m	struct:__anon50	access:public
+__anon50::otherNodeCalRetry	datatypes.h	/^	UInteger8 otherNodeCalRetry;$/;"	m	struct:__anon50	access:public
+__anon50::otherNodeCalSendPattern	datatypes.h	/^	UInteger16 otherNodeCalSendPattern; $/;"	m	struct:__anon50	access:public
+__anon50::otherNodeDeltaRx	datatypes.h	/^	FixedDelta otherNodeDeltaRx; 	$/;"	m	struct:__anon50	access:public
+__anon50::otherNodeDeltaTx	datatypes.h	/^	FixedDelta otherNodeDeltaTx; $/;"	m	struct:__anon50	access:public
+__anon50::owd_filt	datatypes.h	/^	one_way_delay_filter  owd_filt;$/;"	m	struct:__anon50	access:public
+__anon50::pDelayReq_tx_ts	datatypes.h	/^	wr_timestamp_t pDelayReq_tx_ts; \/\/ t3 S (P2P)$/;"	m	struct:__anon50	access:public
+__anon50::pDelayResp_tx_ts	datatypes.h	/^	wr_timestamp_t pDelayResp_tx_ts;\/\/ t5 M (P2P)$/;"	m	struct:__anon50	access:public
+__anon50::parentCalibrated	datatypes.h	/^	Boolean parentCalibrated;$/;"	m	struct:__anon50	access:public
+__anon50::parentIsWRnode	datatypes.h	/^	Boolean parentIsWRnode;$/;"	m	struct:__anon50	access:public
+__anon50::parentWrConfig	datatypes.h	/^	Enumeration8 parentWrConfig; $/;"	m	struct:__anon50	access:public
+__anon50::parentWrModeON	datatypes.h	/^	Boolean parentWrModeON; $/;"	m	struct:__anon50	access:public
+__anon50::parentWrNodeMode	datatypes.h	/^	Enumeration8 parentWrNodeMode; $/;"	m	struct:__anon50	access:public
+__anon50::pdelayMS	datatypes.h	/^	TimeInternal	pdelayMS;$/;"	m	struct:__anon50	access:public
+__anon50::pdelaySM	datatypes.h	/^	TimeInternal	pdelaySM;$/;"	m	struct:__anon50	access:public
+__anon50::pdelay_req_receive_time	datatypes.h	/^	TimeInternal  pdelay_req_receive_time;$/;"	m	struct:__anon50	access:public
+__anon50::pdelay_req_send_time	datatypes.h	/^	TimeInternal  pdelay_req_send_time;$/;"	m	struct:__anon50	access:public
+__anon50::pdelay_resp_receive_time	datatypes.h	/^	TimeInternal  pdelay_resp_receive_time;$/;"	m	struct:__anon50	access:public
+__anon50::pdelay_resp_send_time	datatypes.h	/^	TimeInternal  pdelay_resp_send_time;$/;"	m	struct:__anon50	access:public
+__anon50::peerMeanPathDelay	datatypes.h	/^	TimeInternal peerMeanPathDelay;$/;"	m	struct:__anon50	access:public
+__anon50::phyCalibrationRequired	datatypes.h	/^	Boolean phyCalibrationRequired;$/;"	m	struct:__anon50	access:public
+__anon50::portIdentity	datatypes.h	/^	PortIdentity portIdentity;$/;"	m	struct:__anon50	access:public
+__anon50::portState	datatypes.h	/^	Enumeration8 portState;$/;"	m	struct:__anon50	access:public
+__anon50::port_communication_technology	datatypes.h	/^	UInteger8 port_communication_technology;$/;"	m	struct:__anon50	access:public
+__anon50::port_uuid_field	datatypes.h	/^	Octet port_uuid_field[PTP_UUID_LENGTH];$/;"	m	struct:__anon50	access:public
+__anon50::ptpClockDS	datatypes.h	/^	PtpClockDS *ptpClockDS;$/;"	m	struct:__anon50	access:public
+__anon50::record_update	datatypes.h	/^	Boolean  record_update;$/;"	m	struct:__anon50	access:public
+__anon50::recvPDelayReqSequenceId	datatypes.h	/^	UInteger16  recvPDelayReqSequenceId;$/;"	m	struct:__anon50	access:public
+__anon50::recvPDelayRespSequenceId	datatypes.h	/^    UInteger16  recvPDelayRespSequenceId;$/;"	m	struct:__anon50	access:public
+__anon50::recvSyncSequenceId	datatypes.h	/^	UInteger16  recvSyncSequenceId;$/;"	m	struct:__anon50	access:public
+__anon50::scalled_alpha	datatypes.h	/^	UInteger32 scalled_alpha;	 \/\/ not used :-($/;"	m	struct:__anon50	access:public
+__anon50::secondaryForeignMaster	datatypes.h	/^	ForeignMasterRecord secondaryForeignMaster;$/;"	m	struct:__anon50	access:public
+__anon50::sentAnnounceSequenceId	datatypes.h	/^	UInteger16  sentAnnounceSequenceId;$/;"	m	struct:__anon50	access:public
+__anon50::sentDelayReqSequenceId	datatypes.h	/^	UInteger16  sentDelayReqSequenceId;$/;"	m	struct:__anon50	access:public
+__anon50::sentPDelayReq	datatypes.h	/^	Boolean  sentPDelayReq;$/;"	m	struct:__anon50	access:public
+__anon50::sentPDelayReqSequenceId	datatypes.h	/^	UInteger16  sentPDelayReqSequenceId;$/;"	m	struct:__anon50	access:public
+__anon50::sentPDelayRespSequenceId	datatypes.h	/^    UInteger16  sentPDelayRespSequenceId;$/;"	m	struct:__anon50	access:public
+__anon50::sentSyncSequenceId	datatypes.h	/^	UInteger16  sentSyncSequenceId;$/;"	m	struct:__anon50	access:public
+__anon50::slave_to_master_delay	datatypes.h	/^	TimeInternal  slave_to_master_delay;$/;"	m	struct:__anon50	access:public
+__anon50::sync_receive_time	datatypes.h	/^	TimeInternal  sync_receive_time;$/;"	m	struct:__anon50	access:public
+__anon50::synch_tx_ts	datatypes.h	/^	wr_timestamp_t synch_tx_ts;     \/\/ t1 M$/;"	m	struct:__anon50	access:public
+__anon50::timers	datatypes.h	/^	} timers;$/;"	m	struct:__anon50	typeref:struct:__anon50::__anon52	access:public
+__anon50::versionNumber	datatypes.h	/^	UInteger4 versionNumber;$/;"	m	struct:__anon50	access:public
+__anon50::waitingForFollow	datatypes.h	/^	Boolean  waitingForFollow;$/;"	m	struct:__anon50	access:public
+__anon50::wrConfig	datatypes.h	/^	Enumeration8 wrConfig;	$/;"	m	struct:__anon50	access:public
+__anon50::wrMode	datatypes.h	/^	Enumeration8 wrMode; $/;"	m	struct:__anon50	access:public
+__anon50::wrModeON	datatypes.h	/^	Boolean wrModeON; $/;"	m	struct:__anon50	access:public
+__anon50::wrPortState	datatypes.h	/^	Enumeration8  wrPortState;$/;"	m	struct:__anon50	access:public
+__anon50::wrSlaveRole	datatypes.h	/^	Enumeration8 wrSlaveRole;$/;"	m	struct:__anon50	access:public
+__anon50::wrStateRetry	datatypes.h	/^	UInteger8 wrStateRetry;$/;"	m	struct:__anon50	access:public
+__anon50::wrStateTimeout	datatypes.h	/^	UInteger32 wrStateTimeout; $/;"	m	struct:__anon50	access:public
+__anon50::wrTimeouts	datatypes.h	/^	int wrTimeouts[WR_TIMER_ARRAY_SIZE];$/;"	m	struct:__anon50	access:public
+__anon50::wrTimers	datatypes.h	/^	IntervalTimer wrTimers[WR_TIMER_ARRAY_SIZE];$/;"	m	struct:__anon50	access:public
+__anon50::wr_servo	datatypes.h	/^	wr_servo_state_t wr_servo;$/;"	m	struct:__anon50	access:public
+__anon53::E2E_mode	datatypes.h	/^	Boolean		E2E_mode;$/;"	m	struct:__anon53	access:public
+__anon53::P2P_mode	datatypes.h	/^    Boolean     P2P_mode;$/;"	m	struct:__anon53	access:public
+__anon53::ai	datatypes.h	/^	Integer16	ap, ai;$/;"	m	struct:__anon53	access:public
+__anon53::announceInterval	datatypes.h	/^	Integer8	announceInterval;$/;"	m	struct:__anon53	access:public
+__anon53::ap	datatypes.h	/^	Integer16	ap, ai;$/;"	m	struct:__anon53	access:public
+__anon53::autoPortDiscovery	datatypes.h	/^	Boolean 	autoPortDiscovery;$/;"	m	struct:__anon53	access:public
+__anon53::calPeriod	datatypes.h	/^	UInteger32	calPeriod;$/;"	m	struct:__anon53	access:public
+__anon53::clockQuality	datatypes.h	/^	ClockQuality	clockQuality;$/;"	m	struct:__anon53	access:public
+__anon53::csvStats	datatypes.h	/^	Boolean		csvStats;$/;"	m	struct:__anon53	access:public
+__anon53::currentUtcOffset	datatypes.h	/^	Integer16	currentUtcOffset;$/;"	m	struct:__anon53	access:public
+__anon53::disableFallbackIfWRFails	datatypes.h	/^	Boolean  disableFallbackIfWRFails;$/;"	m	struct:__anon53	access:public
+__anon53::displayStats	datatypes.h	/^	Boolean		displayStats;$/;"	m	struct:__anon53	access:public
+__anon53::domainNumber	datatypes.h	/^	UInteger8	domainNumber;$/;"	m	struct:__anon53	access:public
+__anon53::ethernet_mode	datatypes.h	/^	Boolean		ethernet_mode;$/;"	m	struct:__anon53	access:public
+__anon53::ifaceName	datatypes.h	/^	Octet		ifaceName[MAX_PORT_NUMBER][IFACE_NAME_LENGTH];$/;"	m	struct:__anon53	access:public
+__anon53::inboundLatency	datatypes.h	/^	TimeInternal	inboundLatency, outboundLatency;$/;"	m	struct:__anon53	access:public
+__anon53::masterOnly	datatypes.h	/^	Boolean		masterOnly;$/;"	m	struct:__anon53	access:public
+__anon53::max_foreign_records	datatypes.h	/^	Integer16	max_foreign_records;$/;"	m	struct:__anon53	access:public
+__anon53::noAdjust	datatypes.h	/^	Boolean		noAdjust;$/;"	m	struct:__anon53	access:public
+__anon53::noResetClock	datatypes.h	/^	Boolean		noResetClock;$/;"	m	struct:__anon53	access:public
+__anon53::offset_first_updated	datatypes.h	/^	Boolean		offset_first_updated;$/;"	m	struct:__anon53	access:public
+__anon53::outboundLatency	datatypes.h	/^	TimeInternal	inboundLatency, outboundLatency;$/;"	m	struct:__anon53	access:public
+__anon53::overrideClockIdentity	datatypes.h	/^	UInteger8	overrideClockIdentity;$/;"	m	struct:__anon53	access:public
+__anon53::phyCalibrationRequired	datatypes.h	/^	Boolean 	phyCalibrationRequired;$/;"	m	struct:__anon53	access:public
+__anon53::portNumber	datatypes.h	/^	UInteger16	portNumber;$/;"	m	struct:__anon53	access:public
+__anon53::primarySource	datatypes.h	/^	Boolean		primarySource;$/;"	m	struct:__anon53	access:public
+__anon53::priority1	datatypes.h	/^	UInteger8	priority1;$/;"	m	struct:__anon53	access:public
+__anon53::priority2	datatypes.h	/^	UInteger8	priority2;$/;"	m	struct:__anon53	access:public
+__anon53::s	datatypes.h	/^	Integer16	s;$/;"	m	struct:__anon53	access:public
+__anon53::syncInterval	datatypes.h	/^	Integer8	syncInterval;$/;"	m	struct:__anon53	access:public
+__anon53::unicastAddress	datatypes.h	/^	Octet		unicastAddress[NET_ADDRESS_LENGTH];$/;"	m	struct:__anon53	access:public
+__anon53::wrConfig	datatypes.h	/^	Enumeration8 	wrConfig;	$/;"	m	struct:__anon53	access:public
+__anon53::wrStateRetry	datatypes.h	/^	UInteger8 	wrStateRetry;$/;"	m	struct:__anon53	access:public
+__anon53::wrStateTimeout	datatypes.h	/^	UInteger32 	wrStateTimeout;$/;"	m	struct:__anon53	access:public
+__anon5::lsb	dep/datatypes_dep.h	/^	unsigned int lsb;$/;"	m	struct:__anon5	access:public
+__anon5::msb	dep/datatypes_dep.h	/^	unsigned int msb;$/;"	m	struct:__anon5	access:public
+__anon6::nsec_prev	dep/datatypes_dep.h	/^	Integer32  nsec_prev, y;$/;"	m	struct:__anon6	access:public
+__anon6::y	dep/datatypes_dep.h	/^	Integer32  nsec_prev, y;$/;"	m	struct:__anon6	access:public
+__anon7::nsec_prev	dep/datatypes_dep.h	/^	Integer32  nsec_prev, y;$/;"	m	struct:__anon7	access:public
+__anon7::s_exp	dep/datatypes_dep.h	/^	Integer32  s_exp;$/;"	m	struct:__anon7	access:public
+__anon7::y	dep/datatypes_dep.h	/^	Integer32  nsec_prev, y;$/;"	m	struct:__anon7	access:public
+__anon8::ifaceName	dep/datatypes_dep.h	/^	char ifaceName[IFACE_NAME_LENGTH];$/;"	m	struct:__anon8	access:public
+__anon8::multicastAddr	dep/datatypes_dep.h	/^	wr_sockaddr_t multicastAddr;$/;"	m	struct:__anon8	access:public
+__anon8::peerMulticastAddr	dep/datatypes_dep.h	/^	wr_sockaddr_t peerMulticastAddr;$/;"	m	struct:__anon8	access:public
+__anon8::selfAddr	dep/datatypes_dep.h	/^	wr_sockaddr_t selfAddr;$/;"	m	struct:__anon8	access:public
+__anon8::unicastAddr	dep/datatypes_dep.h	/^	wr_sockaddr_t unicastAddr;$/;"	m	struct:__anon8	access:public
+__anon8::wrSock	dep/datatypes_dep.h	/^	wr_socket_t *wrSock;$/;"	m	struct:__anon8	access:public
+__anon9::clock_period_ps	dep/datatypes_dep.h	/^	int32_t clock_period_ps;$/;"	m	struct:__anon9	access:public
+__anon9::cur_setpoint	dep/datatypes_dep.h	/^	int32_t cur_setpoint;$/;"	m	struct:__anon9	access:public
+__anon9::delta_ms	dep/datatypes_dep.h	/^	int64_t delta_ms;$/;"	m	struct:__anon9	access:public
+__anon9::delta_ms_prev	dep/datatypes_dep.h	/^	int64_t delta_ms_prev;$/;"	m	struct:__anon9	access:public
+__anon9::delta_rx_m	dep/datatypes_dep.h	/^	int32_t delta_rx_m;$/;"	m	struct:__anon9	access:public
+__anon9::delta_rx_s	dep/datatypes_dep.h	/^	int32_t delta_rx_s;$/;"	m	struct:__anon9	access:public
+__anon9::delta_tx_m	dep/datatypes_dep.h	/^	int32_t delta_tx_m;$/;"	m	struct:__anon9	access:public
+__anon9::delta_tx_s	dep/datatypes_dep.h	/^	int32_t delta_tx_s;$/;"	m	struct:__anon9	access:public
+__anon9::fiber_fix_alpha	dep/datatypes_dep.h	/^	int32_t fiber_fix_alpha;$/;"	m	struct:__anon9	access:public
+__anon9::if_name	dep/datatypes_dep.h	/^	char if_name[16];$/;"	m	struct:__anon9	access:public
+__anon9::last_tics	dep/datatypes_dep.h	/^	uint64_t last_tics;$/;"	m	struct:__anon9	access:public
+__anon9::missed_iters	dep/datatypes_dep.h	/^	int missed_iters;$/;"	m	struct:__anon9	access:public
+__anon9::mu	dep/datatypes_dep.h	/^	wr_timestamp_t mu;$/;"	m	struct:__anon9	access:public
+__anon9::next_state	dep/datatypes_dep.h	/^	int next_state;$/;"	m	struct:__anon9	access:public
+__anon9::nsec_offset	dep/datatypes_dep.h	/^	wr_timestamp_t nsec_offset;$/;"	m	struct:__anon9	access:public
+__anon9::prev_t4	dep/datatypes_dep.h	/^	wr_timestamp_t prev_t4;$/;"	m	struct:__anon9	access:public
+__anon9::state	dep/datatypes_dep.h	/^	int state;$/;"	m	struct:__anon9	access:public
+__anon9::t1	dep/datatypes_dep.h	/^	wr_timestamp_t t1, t2, t3, t4;$/;"	m	struct:__anon9	access:public
+__anon9::t2	dep/datatypes_dep.h	/^	wr_timestamp_t t1, t2, t3, t4;$/;"	m	struct:__anon9	access:public
+__anon9::t3	dep/datatypes_dep.h	/^	wr_timestamp_t t1, t2, t3, t4;$/;"	m	struct:__anon9	access:public
+__anon9::t4	dep/datatypes_dep.h	/^	wr_timestamp_t t1, t2, t3, t4;$/;"	m	struct:__anon9	access:public
+__rpcdef_cmd	ptpd_exports.h	/^struct minipc_pd __rpcdef_cmd = {$/;"	v	typeref:struct:minipc_pd
+__rpcdef_get_sync_state	ptpd_exports.h	/^struct minipc_pd __rpcdef_get_sync_state = {$/;"	v	typeref:struct:minipc_pd
+actionField	datatypes.h	/^	Enumeration4 actionField;$/;"	m	struct:__anon45	access:public
+addForeign	protocol.c	/^void addForeign(Octet*,MsgHeader*,PtpPortDS*);$/;"	p	file:	signature:(Octet*,MsgHeader*,PtpPortDS*)
+addTime	arith.c	/^void addTime(TimeInternal *r, TimeInternal *x, TimeInternal *y)$/;"	f	signature:(TimeInternal *r, TimeInternal *x, TimeInternal *y)
+addTime	ptpd.h	/^void addTime(TimeInternal*,TimeInternal*,TimeInternal*);$/;"	p	signature:(TimeInternal*,TimeInternal*,TimeInternal*)
+adjFreq	dep/ptpd_dep.h	/^Boolean adjFreq(Integer32);$/;"	p	signature:(Integer32)
+adressField	datatypes.h	/^	Octet* adressField;$/;"	m	struct:__anon30	access:public
+adressLength	datatypes.h	/^	UInteger16 adressLength;$/;"	m	struct:__anon30	access:public
+ai	datatypes.h	/^	Integer16	ap, ai;$/;"	m	struct:__anon53	access:public
+announce	datatypes.h	/^		MsgAnnounce  announce;$/;"	m	union:__anon50::__anon51	access:public
+announce	datatypes.h	/^	MsgAnnounce  announce;$/;"	m	struct:__anon48	access:public
+announceInterval	datatypes.h	/^		IntervalTimer announceInterval;$/;"	m	struct:__anon50::__anon52	access:public
+announceInterval	datatypes.h	/^	Integer8	announceInterval;$/;"	m	struct:__anon53	access:public
+announceReceipt	datatypes.h	/^		IntervalTimer announceReceipt;$/;"	m	struct:__anon50::__anon52	access:public
+announceReceiptTimeout	datatypes.h	/^	UInteger8 announceReceiptTimeout;$/;"	m	struct:__anon50	access:public
+ap	datatypes.h	/^	Integer16	ap, ai;$/;"	m	struct:__anon53	access:public
+autoDetectPortWrConfig	dep/net.c	/^Boolean autoDetectPortWrConfig(NetPath *netPath, PtpPortDS *ptpPortDS)$/;"	f	signature:(NetPath *netPath, PtpPortDS *ptpPortDS)
+autoDetectPortWrConfig	dep/ptpd_dep.h	/^Boolean autoDetectPortWrConfig(NetPath*, PtpPortDS*);$/;"	p	signature:(NetPath*, PtpPortDS*)
+autoPortDiscovery	datatypes.h	/^	Boolean 	autoPortDiscovery;$/;"	m	struct:__anon53	access:public
+autoPortNumberDiscovery	dep/net.c	/^UInteger16 autoPortNumberDiscovery(void)$/;"	f	signature:(void)
+autoPortNumberDiscovery	dep/ptpd_dep.h	/^UInteger16 autoPortNumberDiscovery(void);$/;"	p	signature:(void)
+bestForeign	datatypes.h	/^	ForeignMasterRecord *bestForeign;$/;"	m	struct:__anon49	access:public
+bmc	bmc.c	/^UInteger8 bmc(ForeignMasterRecord *foreignMaster,RunTimeOpts *rtOpts ,PtpPortDS *ptpPortDS )$/;"	f	signature:(ForeignMasterRecord *foreignMaster,RunTimeOpts *rtOpts ,PtpPortDS *ptpPortDS )
+bmc	ptpd.h	/^UInteger8 bmc(ForeignMasterRecord*,RunTimeOpts*,PtpPortDS*);$/;"	p	signature:(ForeignMasterRecord*,RunTimeOpts*,PtpPortDS*)
+bmcDataSetComparison	bmc.c	/^Integer8 bmcDataSetComparison(MsgHeader *headerA, MsgAnnounce *announceA, UInteger16 receptionPortNumberA,$/;"	f	signature:(MsgHeader *headerA, MsgAnnounce *announceA, UInteger16 receptionPortNumberA, MsgHeader *headerB, MsgAnnounce *announceB, UInteger16 receptionPortNumberB, PtpPortDS *ptpPortDS)
+bmcDataSetComparison	ptpd.h	/^Integer8 bmcDataSetComparison(MsgHeader*, MsgAnnounce*, UInteger16, MsgHeader*, \\$/;"	p	signature:(MsgHeader*, MsgAnnounce*, UInteger16, MsgHeader*, \ MsgAnnounce*, UInteger16, PtpPortDS*)
+bmcStateDecision	bmc.c	/^UInteger8 bmcStateDecision (MsgHeader *header,MsgAnnounce *announce, UInteger16 receptionPortNumber, RunTimeOpts *rtOpts,PtpPortDS *ptpPortDS)$/;"	f	signature:(MsgHeader *header,MsgAnnounce *announce, UInteger16 receptionPortNumber, RunTimeOpts *rtOpts,PtpPortDS *ptpPortDS)
+boundaryHops	datatypes.h	/^	UInteger8 boundaryHops;$/;"	m	struct:__anon45	access:public
+calPeriod	datatypes.h	/^	UInteger32	calPeriod;$/;"	m	struct:__anon53	access:public
+calPeriod	datatypes.h	/^	UInteger32 calPeriod;\/\/[us]$/;"	m	struct:__anon50	access:public
+calRetry	datatypes.h	/^	UInteger8 calRetry;$/;"	m	struct:__anon50	access:public
+calibrated	datatypes.h	/^	Boolean calibrated;$/;"	m	struct:__anon50	access:public
+catch_close	dep/startup.c	/^void catch_close(int sig)$/;"	f	signature:(int sig)
+checkClockClassValidity	ptpd.h	/^void checkClockClassValidity(PtpClockDS *ptpClockDS);$/;"	p	signature:(PtpClockDS *ptpClockDS)
+clearFlag	dep/ptpd_dep.h	93;"	d
+clearForeignMasters	ptpd.h	/^void clearForeignMasters(PtpPortDS *ptpPortDS);$/;"	p	signature:(PtpPortDS *ptpPortDS)
+clockAccuracy	datatypes.h	/^	Enumeration8 clockAccuracy;$/;"	m	struct:__anon31	access:public
+clockClass	datatypes.h	/^	UInteger8 clockClass;$/;"	m	struct:__anon31	access:public
+clockClassValidityTimeout	datatypes.h	/^	UInteger8 clockClassValidityTimeout;$/;"	m	struct:__anon49	access:public
+clockClassValidityTimer	datatypes.h	/^	IntervalTimer clockClassValidityTimer;$/;"	m	struct:__anon49	access:public
+clockIdentity	datatypes.h	/^	ClockIdentity clockIdentity; \/\/TODO(5): should be in clockDS$/;"	m	struct:__anon50	access:public
+clockIdentity	datatypes.h	/^	ClockIdentity clockIdentity;$/;"	m	struct:__anon29	access:public
+clockIdentity_display	display.c	/^void clockIdentity_display(ClockIdentity clockIdentity){$/;"	f	signature:(ClockIdentity clockIdentity)
+clockIdentity_display	ptpd.h	/^void clockIdentity_display(ClockIdentity);$/;"	p	signature:(ClockIdentity)
+clockQuality	datatypes.h	/^	ClockQuality	clockQuality;$/;"	m	struct:__anon53	access:public
+clockQuality	datatypes.h	/^	ClockQuality clockQuality;$/;"	m	struct:__anon49	access:public
+clockQuality_display	display.c	/^void clockQuality_display (ClockQuality *clockQuality){$/;"	f	signature:(ClockQuality *clockQuality)
+clockQuality_display	ptpd.h	/^void clockQuality_display (ClockQuality*);$/;"	p	signature:(ClockQuality*)
+clockUUID_display	display.c	/^void clockUUID_display(Octet *sourceUuid){$/;"	f	signature:(Octet *sourceUuid)
+clock_period_ps	dep/datatypes_dep.h	/^	int32_t clock_period_ps;$/;"	m	struct:__anon9	access:public
+controlField	datatypes.h	/^	UInteger8 controlField;$/;"	m	struct:__anon35	access:public
+copyD0	bmc.c	/^void copyD0(MsgHeader *header, MsgAnnounce *announce, PtpPortDS *ptpPortDS)$/;"	f	signature:(MsgHeader *header, MsgAnnounce *announce, PtpPortDS *ptpPortDS)
+correct	datatypes.h	/^	int correct;$/;"	m	struct:__anon46	access:public
+correctionfield	datatypes.h	/^	Integer64 correctionfield;$/;"	m	struct:__anon35	access:public
+csvStats	datatypes.h	/^	Boolean		csvStats;$/;"	m	struct:__anon53	access:public
+cur_offset	ptpd_exports.h	/^	int64_t cur_offset;$/;"	m	struct:__anon1	access:public
+cur_servo_state	dep/wr_servo.c	/^ptpdexp_sync_state_t cur_servo_state;$/;"	v
+cur_setpoint	dep/datatypes_dep.h	/^	int32_t cur_setpoint;$/;"	m	struct:__anon9	access:public
+cur_setpoint	ptpd_exports.h	/^	int64_t cur_setpoint;$/;"	m	struct:__anon1	access:public
+cur_skew	ptpd_exports.h	/^	int64_t cur_skew;$/;"	m	struct:__anon1	access:public
+currentUtcOffset	datatypes.h	/^	Integer16	currentUtcOffset;$/;"	m	struct:__anon53	access:public
+currentUtcOffset	datatypes.h	/^	Integer16 currentUtcOffset;$/;"	m	struct:__anon36	access:public
+currentUtcOffset	datatypes.h	/^	Integer16 currentUtcOffset;$/;"	m	struct:__anon49	access:public
+currentUtcOffsetValid	datatypes.h	/^	Boolean currentUtcOffsetValid;$/;"	m	struct:__anon49	access:public
+currentWRstateCnt	datatypes.h	/^	UInteger8 currentWRstateCnt;$/;"	m	struct:__anon50	access:public
+current_rx_ts	datatypes.h	/^	wr_timestamp_t current_rx_ts;$/;"	m	struct:__anon50	access:public
+current_tx_ts	datatypes.h	/^	wr_timestamp_t current_tx_ts;$/;"	m	struct:__anon50	access:public
+delayMS	datatypes.h	/^	TimeInternal    delayMS;$/;"	m	struct:__anon50	access:public
+delayMechanism	datatypes.h	/^	Enumeration8 delayMechanism;$/;"	m	struct:__anon50	access:public
+delayReq	datatypes.h	/^		IntervalTimer delayReq;$/;"	m	struct:__anon50::__anon52	access:public
+delayReqHeader	datatypes.h	/^	MsgHeader		delayReqHeader;$/;"	m	struct:__anon50	access:public
+delayReq_tx_ts	datatypes.h	/^	wr_timestamp_t delayReq_tx_ts;  \/\/ t3 S (E2E)$/;"	m	struct:__anon50	access:public
+delaySM	datatypes.h	/^	TimeInternal	delaySM;$/;"	m	struct:__anon50	access:public
+delay_ms	ptpd_exports.h	/^	int64_t delay_ms;$/;"	m	struct:__anon1	access:public
+delay_req_receive_time	datatypes.h	/^	TimeInternal  delay_req_receive_time;$/;"	m	struct:__anon50	access:public
+delay_req_send_time	datatypes.h	/^	TimeInternal  delay_req_send_time;$/;"	m	struct:__anon50	access:public
+deltaRx	datatypes.h	/^	FixedDelta deltaRx; $/;"	m	struct:__anon50	access:public
+deltaTx	datatypes.h	/^	FixedDelta deltaTx; $/;"	m	struct:__anon50	access:public
+delta_ms	dep/datatypes_dep.h	/^	int64_t delta_ms;$/;"	m	struct:__anon9	access:public
+delta_ms_prev	dep/datatypes_dep.h	/^	int64_t delta_ms_prev;$/;"	m	struct:__anon9	access:public
+delta_rx_m	dep/datatypes_dep.h	/^	int32_t delta_rx_m;$/;"	m	struct:__anon9	access:public
+delta_rx_m	ptpd_exports.h	/^	int64_t delta_rx_m;$/;"	m	struct:__anon1	access:public
+delta_rx_s	dep/datatypes_dep.h	/^	int32_t delta_rx_s;$/;"	m	struct:__anon9	access:public
+delta_rx_s	ptpd_exports.h	/^	int64_t delta_rx_s;$/;"	m	struct:__anon1	access:public
+delta_tx_m	dep/datatypes_dep.h	/^	int32_t delta_tx_m;$/;"	m	struct:__anon9	access:public
+delta_tx_m	ptpd_exports.h	/^	int64_t delta_tx_m;$/;"	m	struct:__anon1	access:public
+delta_tx_s	dep/datatypes_dep.h	/^	int32_t delta_tx_s;$/;"	m	struct:__anon9	access:public
+delta_tx_s	ptpd_exports.h	/^	int64_t delta_tx_s;$/;"	m	struct:__anon1	access:public
+disableFallbackIfWRFails	datatypes.h	/^	Boolean  disableFallbackIfWRFails;$/;"	m	struct:__anon53	access:public
+displayBuffer	display.c	/^void displayBuffer (PtpPortDS *ptpPortDS){$/;"	f	signature:(PtpPortDS *ptpPortDS)
+displayBuffer	ptpd.h	/^void displayBuffer (PtpPortDS*);$/;"	p	signature:(PtpPortDS*)
+displayConfigINFO	display.c	/^void displayConfigINFO(RunTimeOpts* rtOpts)$/;"	f	signature:(RunTimeOpts* rtOpts)
+displayConfigINFO	ptpd.h	/^void displayConfigINFO(RunTimeOpts*);$/;"	p	signature:(RunTimeOpts*)
+displayCurrent	display.c	/^void displayCurrent (PtpPortDS *ptpPortDS){$/;"	f	signature:(PtpPortDS *ptpPortDS)
+displayCurrent	ptpd.h	/^void displayCurrent (PtpPortDS*);$/;"	p	signature:(PtpPortDS*)
+displayDefault	display.c	/^void displayDefault (PtpPortDS *ptpPortDS){$/;"	f	signature:(PtpPortDS *ptpPortDS)
+displayDefault	ptpd.h	/^void displayDefault (PtpPortDS*);$/;"	p	signature:(PtpPortDS*)
+displayForeignMaster	display.c	/^void displayForeignMaster (PtpPortDS *ptpPortDS){$/;"	f	signature:(PtpPortDS *ptpPortDS)
+displayForeignMaster	ptpd.h	/^void displayForeignMaster (PtpPortDS*);$/;"	p	signature:(PtpPortDS*)
+displayGlobal	display.c	/^void displayGlobal (PtpPortDS *ptpPortDS){$/;"	f	signature:(PtpPortDS *ptpPortDS)
+displayGlobal	ptpd.h	/^void displayGlobal (PtpPortDS*);$/;"	p	signature:(PtpPortDS*)
+displayOthers	display.c	/^void displayOthers (PtpPortDS *ptpPortDS){$/;"	f	signature:(PtpPortDS *ptpPortDS)
+displayOthers	ptpd.h	/^void displayOthers (PtpPortDS*);$/;"	p	signature:(PtpPortDS*)
+displayParent	display.c	/^void displayParent (PtpPortDS *ptpPortDS){$/;"	f	signature:(PtpPortDS *ptpPortDS)
+displayParent	ptpd.h	/^void displayParent (PtpPortDS*);$/;"	p	signature:(PtpPortDS*)
+displayPort	display.c	/^void displayPort (PtpPortDS *ptpPortDS){$/;"	f	signature:(PtpPortDS *ptpPortDS)
+displayPort	ptpd.h	/^void displayPort (PtpPortDS*);$/;"	p	signature:(PtpPortDS*)
+displayPtpPortDS	display.c	/^void displayPtpPortDS (PtpPortDS *ptpPortDS){$/;"	f	signature:(PtpPortDS *ptpPortDS)
+displayPtpPortDS	ptpd.h	/^void displayPtpPortDS (PtpPortDS*);$/;"	p	signature:(PtpPortDS*)
+displayRunTimeOpts	display.c	/^void displayRunTimeOpts(RunTimeOpts* rtOpts){$/;"	f	signature:(RunTimeOpts* rtOpts)
+displayRunTimeOpts	ptpd.h	/^void displayRunTimeOpts(RunTimeOpts*);$/;"	p	signature:(RunTimeOpts*)
+displayStats	datatypes.h	/^	Boolean		displayStats;$/;"	m	struct:__anon53	access:public
+displayStats	dep/ptpd_dep.h	/^void displayStats(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS);$/;"	p	signature:(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+displayStats	dep/sys.c	/^void displayStats(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+doInit	protocol.c	/^Boolean doInit(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+doInit	protocol.c	/^Boolean doInit(RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(RunTimeOpts*,PtpPortDS*)
+doRestart	datatypes.h	/^	Boolean doRestart;$/;"	m	struct:__anon50	access:public
+doState	protocol.c	/^void doState(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+doState	protocol.c	/^void doState(RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(RunTimeOpts*,PtpPortDS*)
+doWRState	wr_protocol.c	/^void doWRState(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+doWRState	wr_protocol.h	/^    void doWRState(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS);$/;"	p	signature:(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+do_irq_less_timing	ptpd.h	/^extern void do_irq_less_timing(PtpPortDS *ptpPortDS);$/;"	p	signature:(PtpPortDS *ptpPortDS)
+domainNumber	datatypes.h	/^	UInteger8	domainNumber;$/;"	m	struct:__anon53	access:public
+domainNumber	datatypes.h	/^	UInteger8 domainNumber;$/;"	m	struct:__anon35	access:public
+domainNumber	datatypes.h	/^	UInteger8 domainNumber;$/;"	m	struct:__anon49	access:public
+dump_timestamp	dep/wr_servo.c	/^static void dump_timestamp(char *what, wr_timestamp_t ts)$/;"	f	file:	signature:(char *what, wr_timestamp_t ts)
+ethernet_mode	datatypes.h	/^	Boolean		ethernet_mode;$/;"	m	struct:__anon53	access:public
+export_cmd	ptpd_exports.c	/^static int export_cmd(const struct minipc_pd *pd,$/;"	f	file:	signature:(const struct minipc_pd *pd, uint32_t *args, void *ret)
+export_get_sync_state	ptpd_exports.c	/^static int export_get_sync_state(const struct minipc_pd *pd,$/;"	f	file:	signature:(const struct minipc_pd *pd, uint32_t *args, void *ret)
+extsrcLocked	dep/net.c	/^Boolean extsrcLocked(void)$/;"	f	signature:(void)
+extsrcLocked	dep/ptpd_dep.h	/^Boolean extsrcLocked(void);$/;"	p	signature:(void)
+faultDescription	datatypes.h	/^	PTPText faultDescription;$/;"	m	struct:__anon34	access:public
+faultName	datatypes.h	/^	PTPText faultName;$/;"	m	struct:__anon34	access:public
+faultRecordLength	datatypes.h	/^	UInteger16 faultRecordLength;$/;"	m	struct:__anon34	access:public
+faultTime	datatypes.h	/^	Timestamp faultTime;$/;"	m	struct:__anon34	access:public
+faultValue	datatypes.h	/^	PTPText faultValue;$/;"	m	struct:__anon34	access:public
+fiber_asymmetry	ptpd_exports.h	/^	int64_t fiber_asymmetry;$/;"	m	struct:__anon1	access:public
+fiber_fix_alpha	dep/datatypes_dep.h	/^	int32_t fiber_fix_alpha;$/;"	m	struct:__anon9	access:public
+flagField	datatypes.h	/^	Octet flagField[2];$/;"	m	struct:__anon35	access:public
+flip16	dep/ptpd_dep.h	60;"	d
+flip32	dep/ptpd_dep.h	61;"	d
+follow	datatypes.h	/^		MsgFollowUp  follow;$/;"	m	union:__anon50::__anon51	access:public
+foreign	datatypes.h	/^	ForeignMasterRecord *foreign;$/;"	m	struct:__anon50	access:public
+foreignMasterAnnounceMessages	datatypes.h	/^	UInteger16 foreignMasterAnnounceMessages;$/;"	m	struct:__anon48	access:public
+foreignMasterPortIdentity	datatypes.h	/^	PortIdentity foreignMasterPortIdentity;$/;"	m	struct:__anon48	access:public
+foreign_record_best	datatypes.h	/^	Integer16  foreign_record_best;$/;"	m	struct:__anon50	access:public
+foreign_record_i	datatypes.h	/^	Integer16  foreign_record_i;$/;"	m	struct:__anon50	access:public
+format_wr_timestamp	wr_protocol.c	/^char *format_wr_timestamp(wr_timestamp_t ts)$/;"	f	signature:(wr_timestamp_t ts)
+format_wr_timestamp	wr_protocol.h	/^char *format_wr_timestamp(wr_timestamp_t ts);$/;"	p	signature:(wr_timestamp_t ts)
+frequencyTraceable	datatypes.h	/^	Boolean frequencyTraceable;$/;"	m	struct:__anon49	access:public
+fromInternalTime	arith.c	/^void fromInternalTime(TimeInternal *internal, Timestamp *external)$/;"	f	signature:(TimeInternal *internal, Timestamp *external)
+fromInternalTime	ptpd.h	/^void fromInternalTime(TimeInternal*,Timestamp*);$/;"	p	signature:(TimeInternal*,Timestamp*)
+getFlag	dep/ptpd_dep.h	91;"	d
+getRand	dep/ptpd_dep.h	/^int getRand();$/;"	p	signature:()
+getTime	dep/ptpd_dep.h	/^void getTime(TimeInternal*);$/;"	p	signature:(TimeInternal*)
+get_be16	dep/msg.c	/^static inline UInteger16 get_be16(void *ptr)$/;"	f	file:	signature:(void *ptr)
+get_be32	dep/msg.c	/^static inline UInteger32 get_be32(void *ptr)$/;"	f	file:	signature:(void *ptr)
+globalBestForeignMastersUpdate	ptpd.h	/^Boolean globalBestForeignMastersUpdate(PtpPortDS*);$/;"	p	signature:(PtpPortDS*)
+globalSecondSlavesUpdate	ptpd.h	/^Boolean globalSecondSlavesUpdate(PtpPortDS *ptpPortDS);$/;"	p	signature:(PtpPortDS *ptpPortDS)
+globalStateDecisionEvent	datatypes.h	/^	Boolean globalStateDecisionEvent;$/;"	m	struct:__anon49	access:public
+got_sync	dep/wr_servo.c	/^static int got_sync = 0;$/;"	v	file:
+grandmasterClockQuality	datatypes.h	/^	ClockQuality grandmasterClockQuality;$/;"	m	struct:__anon36	access:public
+grandmasterClockQuality	datatypes.h	/^	ClockQuality grandmasterClockQuality;$/;"	m	struct:__anon49	access:public
+grandmasterIdentity	datatypes.h	/^	ClockIdentity grandmasterIdentity;$/;"	m	struct:__anon36	access:public
+grandmasterIdentity	datatypes.h	/^	ClockIdentity grandmasterIdentity;$/;"	m	struct:__anon49	access:public
+grandmasterPriority1	datatypes.h	/^	UInteger8 grandmasterPriority1;$/;"	m	struct:__anon36	access:public
+grandmasterPriority1	datatypes.h	/^	UInteger8 grandmasterPriority1;$/;"	m	struct:__anon49	access:public
+grandmasterPriority2	datatypes.h	/^	UInteger8 grandmasterPriority2;$/;"	m	struct:__anon36	access:public
+grandmasterPriority2	datatypes.h	/^	UInteger8 grandmasterPriority2;$/;"	m	struct:__anon49	access:public
+handle	protocol.c	/^void handle(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+handle	protocol.c	/^void handle(RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(RunTimeOpts*,PtpPortDS*)
+handle	ptpd.h	/^extern void handle(RunTimeOpts*,PtpPortDS*);$/;"	p	signature:(RunTimeOpts*,PtpPortDS*)
+handleAnnounce	protocol.c	/^void handleAnnounce(MsgHeader *header, Octet *msgIbuf, ssize_t length, Boolean isFromSelf, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(MsgHeader *header, Octet *msgIbuf, ssize_t length, Boolean isFromSelf, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+handleAnnounce	protocol.c	/^void handleAnnounce(MsgHeader*,Octet*,ssize_t,Boolean,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(MsgHeader*,Octet*,ssize_t,Boolean,RunTimeOpts*,PtpPortDS*)
+handleDelayReq	protocol.c	/^void handleDelayReq(MsgHeader *header,Octet *msgIbuf,ssize_t length,Boolean isFromSelf,RunTimeOpts *rtOpts,PtpPortDS *ptpPortDS)$/;"	f	signature:(MsgHeader *header,Octet *msgIbuf,ssize_t length,Boolean isFromSelf,RunTimeOpts *rtOpts,PtpPortDS *ptpPortDS)
+handleDelayReq	protocol.c	/^void handleDelayReq(MsgHeader*,Octet*,ssize_t,Boolean,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(MsgHeader*,Octet*,ssize_t,Boolean,RunTimeOpts*,PtpPortDS*)
+handleDelayResp	protocol.c	/^void handleDelayResp(MsgHeader *header,Octet *msgIbuf,ssize_t length,Boolean isFromSelf,RunTimeOpts *rtOpts,PtpPortDS *ptpPortDS)$/;"	f	signature:(MsgHeader *header,Octet *msgIbuf,ssize_t length,Boolean isFromSelf,RunTimeOpts *rtOpts,PtpPortDS *ptpPortDS)
+handleDelayResp	protocol.c	/^void handleDelayResp(MsgHeader*,Octet*,ssize_t,Boolean,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(MsgHeader*,Octet*,ssize_t,Boolean,RunTimeOpts*,PtpPortDS*)
+handleFollowUp	protocol.c	/^void handleFollowUp(MsgHeader *header, Octet *msgIbuf, ssize_t length, Boolean isFromSelf, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(MsgHeader *header, Octet *msgIbuf, ssize_t length, Boolean isFromSelf, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+handleFollowUp	ptpd.h	/^extern void handleFollowUp(MsgHeader *header, Octet *msgIbuf,$/;"	p	signature:(MsgHeader *header, Octet *msgIbuf, ssize_t length, Boolean isFromSelf, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+handleManagement	protocol.c	/^void handleManagement(MsgHeader*,Octet*,ssize_t,Boolean,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(MsgHeader*,Octet*,ssize_t,Boolean,RunTimeOpts*,PtpPortDS*)
+handlePDelayReq	protocol.c	/^void handlePDelayReq(MsgHeader *header, Octet *msgIbuf, ssize_t length, TimeInternal *time, Boolean isFromSelf, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(MsgHeader *header, Octet *msgIbuf, ssize_t length, TimeInternal *time, Boolean isFromSelf, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+handlePDelayReq	protocol.c	/^void handlePDelayReq(MsgHeader*,Octet*,ssize_t,TimeInternal*,Boolean,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(MsgHeader*,Octet*,ssize_t,TimeInternal*,Boolean,RunTimeOpts*,PtpPortDS*)
+handlePDelayResp	protocol.c	/^void handlePDelayResp(MsgHeader *header, Octet *msgIbuf, TimeInternal *time,ssize_t length, Boolean isFromSelf, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(MsgHeader *header, Octet *msgIbuf, TimeInternal *time,ssize_t length, Boolean isFromSelf, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+handlePDelayResp	protocol.c	/^void handlePDelayResp(MsgHeader*,Octet*,TimeInternal* ,ssize_t,Boolean,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(MsgHeader*,Octet*,TimeInternal* ,ssize_t,Boolean,RunTimeOpts*,PtpPortDS*)
+handlePDelayRespFollowUp	protocol.c	/^void handlePDelayRespFollowUp(MsgHeader*,Octet*,ssize_t,Boolean,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(MsgHeader*,Octet*,ssize_t,Boolean,RunTimeOpts*,PtpPortDS*)
+handleSignaling	protocol.c	/^void handleSignaling(MsgHeader*,Octet*,ssize_t,Boolean,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(MsgHeader*,Octet*,ssize_t,Boolean,RunTimeOpts*,PtpPortDS*)
+handleSync	protocol.c	/^void handleSync(MsgHeader *header, Octet *msgIbuf, ssize_t length, TimeInternal *time, Boolean isFromSelf, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(MsgHeader *header, Octet *msgIbuf, ssize_t length, TimeInternal *time, Boolean isFromSelf, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+handleSync	protocol.c	/^void handleSync(MsgHeader*,Octet*,ssize_t,TimeInternal*,Boolean,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(MsgHeader*,Octet*,ssize_t,TimeInternal*,Boolean,RunTimeOpts*,PtpPortDS*)
+header	datatypes.h	/^	MsgHeader    header;$/;"	m	struct:__anon48	access:public
+iFaceName_display	display.c	/^void iFaceName_display(Octet *iFaceName){$/;"	f	signature:(Octet *iFaceName)
+iFaceName_display	ptpd.h	/^void iFaceName_display(Octet*);$/;"	p	signature:(Octet*)
+if_name	dep/datatypes_dep.h	/^	char if_name[16];$/;"	m	struct:__anon9	access:public
+ifaceName	datatypes.h	/^	Octet		ifaceName[MAX_PORT_NUMBER][IFACE_NAME_LENGTH];$/;"	m	struct:__anon53	access:public
+ifaceName	dep/datatypes_dep.h	/^	char ifaceName[IFACE_NAME_LENGTH];$/;"	m	struct:__anon8	access:public
+inboundLatency	datatypes.h	/^	TimeInternal	inboundLatency, outboundLatency;$/;"	m	struct:__anon53	access:public
+initClock	dep/ptpd_dep.h	/^void initClock(RunTimeOpts*,PtpPortDS*);$/;"	p	signature:(RunTimeOpts*,PtpPortDS*)
+initClock	dep/servo.c	/^void initClock(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+initDataClock	bmc.c	/^void initDataClock(RunTimeOpts *rtOpts, PtpClockDS *ptpClockDS)$/;"	f	signature:(RunTimeOpts *rtOpts, PtpClockDS *ptpClockDS)
+initDataClock	ptpd.h	/^void initDataClock(RunTimeOpts*, PtpClockDS*);$/;"	p	signature:(RunTimeOpts*, PtpClockDS*)
+initDataPort	bmc.c	/^void initDataPort(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+initDataPort	ptpd.h	/^void initDataPort(RunTimeOpts*,PtpPortDS*);$/;"	p	signature:(RunTimeOpts*,PtpPortDS*)
+initWrData	wr_protocol.c	/^void initWrData(PtpPortDS *ptpPortDS, Enumeration8 mode)$/;"	f	signature:(PtpPortDS *ptpPortDS, Enumeration8 mode)
+initWrData	wr_protocol.h	/^void initWrData(PtpPortDS *ptpPortDS, Enumeration8 mode);$/;"	p	signature:(PtpPortDS *ptpPortDS, Enumeration8 mode)
+integer64_display	display.c	/^void integer64_display (Integer64 *bigint){$/;"	f	signature:(Integer64 *bigint)
+integer64_display	ptpd.h	/^void integer64_display (Integer64*);$/;"	p	signature:(Integer64*)
+integer64_to_internalTime	arith.c	/^void integer64_to_internalTime(Integer64 bigint,TimeInternal *internal)$/;"	f	signature:(Integer64 bigint,TimeInternal *internal)
+integer64_to_internalTime	ptpd.h	/^void integer64_to_internalTime(Integer64,TimeInternal*);$/;"	p	signature:(Integer64,TimeInternal*)
+interval	datatypes.h	/^	int interval;$/;"	m	struct:__anon47	access:public
+intervalTimer_display	display.c	/^void intervalTimer_display(IntervalTimer *ptimer)$/;"	f	signature:(IntervalTimer *ptimer)
+intervalTimer_display	ptpd.h	/^void intervalTimer_display(IntervalTimer*);$/;"	p	signature:(IntervalTimer*)
+isPortUp	wr_protocol.c	/^Boolean isPortUp(NetPath *netPath)$/;"	f	signature:(NetPath *netPath)
+isPortUp	wr_protocol.h	/^Boolean isPortUp(NetPath *netPath);$/;"	p	signature:(NetPath *netPath)
+isSecondarySlave	datatypes.h	/^	Boolean isSecondarySlave;$/;"	m	struct:__anon50	access:public
+issueAnnounce	protocol.c	/^void issueAnnounce(RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(RunTimeOpts*,PtpPortDS*)
+issueDelayReq	protocol.c	/^void issueDelayReq(RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(RunTimeOpts*,PtpPortDS*)
+issueDelayResp	protocol.c	/^void issueDelayResp(MsgHeader*,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(MsgHeader*,RunTimeOpts*,PtpPortDS*)
+issueFollowup	protocol.c	/^void issueFollowup(RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(RunTimeOpts*,PtpPortDS*)
+issueManagement	protocol.c	/^void issueManagement(MsgHeader*,MsgManagement*,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(MsgHeader*,MsgManagement*,RunTimeOpts*,PtpPortDS*)
+issuePDelayReq	protocol.c	/^void issuePDelayReq(RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(RunTimeOpts*,PtpPortDS*)
+issuePDelayResp	protocol.c	/^void issuePDelayResp(TimeInternal*,MsgHeader*,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(TimeInternal*,MsgHeader*,RunTimeOpts*,PtpPortDS*)
+issuePDelayRespFollowUp	protocol.c	/^void issuePDelayRespFollowUp(TimeInternal*,MsgHeader*,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(TimeInternal*,MsgHeader*,RunTimeOpts*,PtpPortDS*)
+issueSync	protocol.c	/^void issueSync(RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(RunTimeOpts*,PtpPortDS*)
+issueWRSignalingMsg	protocol.c	/^void issueWRSignalingMsg(Enumeration16,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(Enumeration16,RunTimeOpts*,PtpPortDS*)
+issueWRSignalingMsg	ptpd.h	/^extern void issueWRSignalingMsg(Enumeration16 wrMessageID,RunTimeOpts *rtOpts,PtpPortDS *ptpPortDS);$/;"	p	signature:(Enumeration16 wrMessageID,RunTimeOpts *rtOpts,PtpPortDS *ptpPortDS)
+lastPdelayRespCorrectionField	datatypes.h	/^	TimeInternal  lastPdelayRespCorrectionField;$/;"	m	struct:__anon50	access:public
+lastSyncCorrectionField	datatypes.h	/^	TimeInternal  lastSyncCorrectionField;$/;"	m	struct:__anon50	access:public
+last_tics	dep/datatypes_dep.h	/^	uint64_t last_tics;$/;"	m	struct:__anon9	access:public
+leap59	datatypes.h	/^	Boolean leap59;$/;"	m	struct:__anon49	access:public
+leap61	datatypes.h	/^	Boolean leap61;$/;"	m	struct:__anon49	access:public
+lengthField	datatypes.h	/^	UInteger16 lengthField;$/;"	m	struct:__anon32	access:public
+lengthField	datatypes.h	/^	UInteger8 lengthField;$/;"	m	struct:__anon33	access:public
+linkUP	datatypes.h	/^	Boolean linkUP;$/;"	m	struct:__anon50	access:public
+logAnnounceInterval	datatypes.h	/^	Integer8 logAnnounceInterval;$/;"	m	struct:__anon50	access:public
+logMessageInterval	datatypes.h	/^	Integer8 logMessageInterval;$/;"	m	struct:__anon35	access:public
+logMinDelayReqInterval	datatypes.h	/^	Integer8 logMinDelayReqInterval;$/;"	m	struct:__anon50	access:public
+logMinPdelayReqInterval	datatypes.h	/^	Integer8 logMinPdelayReqInterval;$/;"	m	struct:__anon50	access:public
+logSyncInterval	datatypes.h	/^	Integer8 logSyncInterval;$/;"	m	struct:__anon50	access:public
+lookupCommunicationTechnology	dep/net.c	/^UInteger8 lookupCommunicationTechnology(UInteger8 communicationTechnology)$/;"	f	signature:(UInteger8 communicationTechnology)
+lsb	dep/datatypes_dep.h	/^	unsigned int lsb;$/;"	m	struct:__anon3	access:public
+lsb	dep/datatypes_dep.h	/^	unsigned int lsb;$/;"	m	struct:__anon4	access:public
+lsb	dep/datatypes_dep.h	/^	unsigned int lsb;$/;"	m	struct:__anon5	access:public
+m1	bmc.c	/^void m1(PtpPortDS *ptpPortDS)$/;"	f	signature:(PtpPortDS *ptpPortDS)
+m1	ptpd.h	/^void m1(PtpPortDS*);$/;"	p	signature:(PtpPortDS*)
+m3	bmc.c	/^void m3(PtpPortDS *ptpPortDS)$/;"	f	signature:(PtpPortDS *ptpPortDS)
+m3	ptpd.h	/^void m3(PtpPortDS*);$/;"	p	signature:(PtpPortDS*)
+main	ptpd.c	/^int main(int argc, char **argv)$/;"	f	signature:(int argc, char **argv)
+manage	datatypes.h	/^		MsgManagement  manage;$/;"	m	union:__anon50::__anon51	access:public
+masterOnly	datatypes.h	/^	Boolean		masterOnly;$/;"	m	struct:__anon53	access:public
+master_to_slave_delay	datatypes.h	/^	TimeInternal  master_to_slave_delay;$/;"	m	struct:__anon50	access:public
+max_foreign_records	datatypes.h	/^	Integer16	max_foreign_records;$/;"	m	struct:__anon53	access:public
+max_foreign_records	datatypes.h	/^	Integer16  max_foreign_records;$/;"	m	struct:__anon50	access:public
+meanPathDelay	datatypes.h	/^	TimeInternal meanPathDelay;$/;"	m	struct:__anon49	access:public
+messageLength	datatypes.h	/^	UInteger16 messageLength;$/;"	m	struct:__anon35	access:public
+messageType	datatypes.h	/^	Enumeration4 messageType;$/;"	m	struct:__anon35	access:public
+message_activity	datatypes.h	/^	Boolean message_activity;$/;"	m	struct:__anon50	access:public
+missed_iters	dep/datatypes_dep.h	/^	int missed_iters;$/;"	m	struct:__anon9	access:public
+msb	dep/datatypes_dep.h	/^	int msb;$/;"	m	struct:__anon4	access:public
+msb	dep/datatypes_dep.h	/^	unsigned int msb;$/;"	m	struct:__anon5	access:public
+msb	dep/datatypes_dep.h	/^	unsigned short msb;$/;"	m	struct:__anon3	access:public
+msgAnnounce_display	display.c	/^void msgAnnounce_display(MsgAnnounce *announce){$/;"	f	signature:(MsgAnnounce *announce)
+msgAnnounce_display	ptpd.h	/^void msgAnnounce_display(MsgAnnounce*);$/;"	p	signature:(MsgAnnounce*)
+msgFollowUp_display	display.c	/^void msgFollowUp_display(MsgFollowUp *follow){$/;"	f	signature:(MsgFollowUp *follow)
+msgFollowUp_display	ptpd.h	/^void msgFollowUp_display(MsgFollowUp*);$/;"	p	signature:(MsgFollowUp*)
+msgHeader_display	display.c	/^void msgHeader_display(MsgHeader *header){$/;"	f	signature:(MsgHeader *header)
+msgHeader_display	ptpd.h	/^void msgHeader_display(MsgHeader*);$/;"	p	signature:(MsgHeader*)
+msgIbuf	datatypes.h	/^	Octet msgIbuf[PACKET_SIZE];$/;"	m	struct:__anon50	access:public
+msgIsFromCurrentParent	protocol.c	/^Boolean msgIsFromCurrentParent(MsgHeader *, PtpPortDS *);$/;"	p	file:	signature:(MsgHeader *, PtpPortDS *)
+msgIsFromCurrentParent	protocol.c	/^Boolean msgIsFromCurrentParent(MsgHeader *header, PtpPortDS *ptpPortDS)$/;"	f	signature:(MsgHeader *header, PtpPortDS *ptpPortDS)
+msgObuf	datatypes.h	/^	Octet msgObuf[PACKET_SIZE];$/;"	m	struct:__anon50	access:public
+msgPDelayReq_display	display.c	/^void msgPDelayReq_display(MsgPDelayReq *preq){$/;"	f	signature:(MsgPDelayReq *preq)
+msgPDelayReq_display	ptpd.h	/^void msgPDelayReq_display(MsgPDelayReq*);$/;"	p	signature:(MsgPDelayReq*)
+msgPDelayRespFollowUp_display	display.c	/^void msgPDelayRespFollowUp_display(MsgPDelayRespFollowUp *prespfollow){$/;"	f	signature:(MsgPDelayRespFollowUp *prespfollow)
+msgPDelayResp_display	display.c	/^void msgPDelayResp_display(MsgPDelayResp *presp){$/;"	f	signature:(MsgPDelayResp *presp)
+msgPackAnnounce	dep/msg.c	/^void msgPackAnnounce(void *buf,PtpPortDS *ptpPortDS)$/;"	f	signature:(void *buf,PtpPortDS *ptpPortDS)
+msgPackAnnounce	dep/ptpd_dep.h	/^void msgPackAnnounce(void*,PtpPortDS*);$/;"	p	signature:(void*,PtpPortDS*)
+msgPackDelayReq	dep/msg.c	/^void msgPackDelayReq(void *buf,Timestamp *originTimestamp,PtpPortDS *ptpPortDS)$/;"	f	signature:(void *buf,Timestamp *originTimestamp,PtpPortDS *ptpPortDS)
+msgPackDelayReq	ptpd.h	/^extern void msgPackDelayReq(void *buf,Timestamp *originTimestamp,$/;"	p	signature:(void *buf,Timestamp *originTimestamp, PtpPortDS *ptpPortDS)
+msgPackDelayResp	dep/msg.c	/^void msgPackDelayResp(void *buf,MsgHeader *header,PtpPortDS *ptpPortDS)$/;"	f	signature:(void *buf,MsgHeader *header,PtpPortDS *ptpPortDS)
+msgPackDelayResp	ptpd.h	/^extern void msgPackDelayResp(void *buf,MsgHeader *header,PtpPortDS *ptpPortDS);$/;"	p	signature:(void *buf,MsgHeader *header,PtpPortDS *ptpPortDS)
+msgPackFollowUp	dep/msg.c	/^void msgPackFollowUp(void *buf,PtpPortDS *ptpPortDS)$/;"	f	signature:(void *buf,PtpPortDS *ptpPortDS)
+msgPackFollowUp	dep/ptpd_dep.h	/^void msgPackFollowUp(void*,PtpPortDS*);$/;"	p	signature:(void*,PtpPortDS*)
+msgPackHeader	dep/msg.c	/^void msgPackHeader(void *buf, PtpPortDS *ptpPortDS)$/;"	f	signature:(void *buf, PtpPortDS *ptpPortDS)
+msgPackHeader	dep/ptpd_dep.h	/^void msgPackHeader(void*,PtpPortDS*);$/;"	p	signature:(void*,PtpPortDS*)
+msgPackManagement	dep/ptpd_dep.h	/^UInteger16 msgPackManagement(void*,MsgManagement*,PtpPortDS*);$/;"	p	signature:(void*,MsgManagement*,PtpPortDS*)
+msgPackManagementResponse	dep/ptpd_dep.h	/^UInteger16 msgPackManagementResponse(void*,MsgHeader*,MsgManagement*,PtpPortDS*);$/;"	p	signature:(void*,MsgHeader*,MsgManagement*,PtpPortDS*)
+msgPackPDelayReq	dep/msg.c	/^void msgPackPDelayReq(void *buf,Timestamp *originTimestamp,PtpPortDS *ptpPortDS)$/;"	f	signature:(void *buf,Timestamp *originTimestamp,PtpPortDS *ptpPortDS)
+msgPackPDelayReq	dep/ptpd_dep.h	/^void msgPackPDelayReq(void*,Timestamp*,PtpPortDS*);$/;"	p	signature:(void*,Timestamp*,PtpPortDS*)
+msgPackPDelayResp	dep/msg.c	/^void msgPackPDelayResp(void *buf,MsgHeader *header,Timestamp *requestReceiptTimestamp,PtpPortDS *ptpPortDS)$/;"	f	signature:(void *buf,MsgHeader *header,Timestamp *requestReceiptTimestamp,PtpPortDS *ptpPortDS)
+msgPackPDelayResp	dep/ptpd_dep.h	/^void msgPackPDelayResp(void*,MsgHeader*,Timestamp*,PtpPortDS*);$/;"	p	signature:(void*,MsgHeader*,Timestamp*,PtpPortDS*)
+msgPackPDelayRespFollowUp	dep/msg.c	/^void msgPackPDelayRespFollowUp(void *buf,MsgHeader *header,Timestamp *responseOriginTimestamp,PtpPortDS *ptpPortDS)$/;"	f	signature:(void *buf,MsgHeader *header,Timestamp *responseOriginTimestamp,PtpPortDS *ptpPortDS)
+msgPackPDelayRespFollowUp	dep/ptpd_dep.h	/^void msgPackPDelayRespFollowUp(void*,MsgHeader*,Timestamp*,PtpPortDS*);$/;"	p	signature:(void*,MsgHeader*,Timestamp*,PtpPortDS*)
+msgPackSync	dep/msg.c	/^void msgPackSync(void *buf,Timestamp *originTimestamp,PtpPortDS *ptpPortDS)$/;"	f	signature:(void *buf,Timestamp *originTimestamp,PtpPortDS *ptpPortDS)
+msgPackSync	dep/ptpd_dep.h	/^void msgPackSync(void*,Timestamp*,PtpPortDS*);$/;"	p	signature:(void*,Timestamp*,PtpPortDS*)
+msgPackWRSignalingMsg	dep/msg.c	/^UInteger16 msgPackWRSignalingMsg(void *buf,PtpPortDS *ptpPortDS, Enumeration16 wrMessageID)$/;"	f	signature:(void *buf,PtpPortDS *ptpPortDS, Enumeration16 wrMessageID)
+msgPackWRSignalingMsg	ptpd.h	/^extern UInteger16 msgPackWRSignalingMsg(void *buf,PtpPortDS *ptpPortDS, Enumeration16 wrMessageID);$/;"	p	signature:(void *buf,PtpPortDS *ptpPortDS, Enumeration16 wrMessageID)
+msgSync_display	display.c	/^void msgSync_display(MsgSync *sync){$/;"	f	signature:(MsgSync *sync)
+msgSync_display	ptpd.h	/^void msgSync_display(MsgSync *sync);$/;"	p	signature:(MsgSync *sync)
+msgTmp	datatypes.h	/^	} msgTmp;$/;"	m	struct:__anon50	typeref:union:__anon50::__anon51	access:public
+msgTmpHeader	datatypes.h	/^	MsgHeader msgTmpHeader;$/;"	m	struct:__anon50	access:public
+msgTmpManagementId	datatypes.h	/^	Enumeration16 msgTmpManagementId;	$/;"	m	struct:__anon50	access:public
+msgTmpWrMessageID	datatypes.h	/^	Enumeration16 msgTmpWrMessageID;	$/;"	m	struct:__anon50	access:public
+msgUnloadManagement	dep/ptpd_dep.h	/^UInteger8 msgUnloadManagement(void*,MsgManagement*,PtpPortDS*,RunTimeOpts*);$/;"	p	signature:(void*,MsgManagement*,PtpPortDS*,RunTimeOpts*)
+msgUnpackAnnounce	dep/msg.c	/^void msgUnpackAnnounce(void *buf,MsgAnnounce *announce,  MsgHeader *header)$/;"	f	signature:(void *buf,MsgAnnounce *announce, MsgHeader *header)
+msgUnpackAnnounce	dep/ptpd_dep.h	/^void msgUnpackAnnounce (void*,MsgAnnounce*, MsgHeader*);$/;"	p	signature:(void*,MsgAnnounce*, MsgHeader*)
+msgUnpackDelayReq	dep/msg.c	/^void msgUnpackDelayReq(void *buf,MsgDelayReq *delayreq)$/;"	f	signature:(void *buf,MsgDelayReq *delayreq)
+msgUnpackDelayResp	dep/msg.c	/^void msgUnpackDelayResp(void *buf,MsgDelayResp *resp)$/;"	f	signature:(void *buf,MsgDelayResp *resp)
+msgUnpackDelayResp	ptpd.h	/^extern void msgUnpackDelayResp(void *buf,MsgDelayResp *resp);$/;"	p	signature:(void *buf,MsgDelayResp *resp)
+msgUnpackFollowUp	dep/msg.c	/^void msgUnpackFollowUp(void *buf,MsgFollowUp *follow)$/;"	f	signature:(void *buf,MsgFollowUp *follow)
+msgUnpackFollowUp	dep/ptpd_dep.h	/^void msgUnpackFollowUp(void*,MsgFollowUp*);$/;"	p	signature:(void*,MsgFollowUp*)
+msgUnpackHeader	dep/msg.c	/^void msgUnpackHeader(void *buf, MsgHeader *header)$/;"	f	signature:(void *buf, MsgHeader *header)
+msgUnpackHeader	dep/ptpd_dep.h	/^void msgUnpackHeader(void*,MsgHeader*);$/;"	p	signature:(void*,MsgHeader*)
+msgUnpackManagement	dep/ptpd_dep.h	/^void msgUnpackManagement(void*,MsgManagement*);$/;"	p	signature:(void*,MsgManagement*)
+msgUnpackManagementPayload	dep/ptpd_dep.h	/^void msgUnpackManagementPayload(void *buf, MsgManagement *manage);$/;"	p	signature:(void *buf, MsgManagement *manage)
+msgUnpackPDelayReq	dep/msg.c	/^void msgUnpackPDelayReq(void *buf,MsgPDelayReq *pdelayreq)$/;"	f	signature:(void *buf,MsgPDelayReq *pdelayreq)
+msgUnpackPDelayReq	dep/ptpd_dep.h	/^void msgUnpackPDelayReq(void*,MsgPDelayReq*);$/;"	p	signature:(void*,MsgPDelayReq*)
+msgUnpackPDelayResp	dep/msg.c	/^void msgUnpackPDelayResp(void *buf,MsgPDelayResp *presp)$/;"	f	signature:(void *buf,MsgPDelayResp *presp)
+msgUnpackPDelayResp	dep/ptpd_dep.h	/^void msgUnpackPDelayResp(void*,MsgPDelayResp*);$/;"	p	signature:(void*,MsgPDelayResp*)
+msgUnpackPDelayRespFollowUp	dep/msg.c	/^void msgUnpackPDelayRespFollowUp(void *buf,MsgPDelayRespFollowUp *prespfollow)$/;"	f	signature:(void *buf,MsgPDelayRespFollowUp *prespfollow)
+msgUnpackPDelayRespFollowUp	dep/ptpd_dep.h	/^void msgUnpackPDelayRespFollowUp(void*,MsgPDelayRespFollowUp*);$/;"	p	signature:(void*,MsgPDelayRespFollowUp*)
+msgUnpackSync	dep/msg.c	/^void msgUnpackSync(void *buf,MsgSync *sync)$/;"	f	signature:(void *buf,MsgSync *sync)
+msgUnpackSync	dep/ptpd_dep.h	/^void msgUnpackSync(void*,MsgSync*);$/;"	p	signature:(void*,MsgSync*)
+msgUnpackWRSignalingMsg	dep/msg.c	/^void msgUnpackWRSignalingMsg(void *buf,MsgSignaling *signalingMsg, Enumeration16 *wrMessageID, PtpPortDS *ptpPortDS )$/;"	f	signature:(void *buf,MsgSignaling *signalingMsg, Enumeration16 *wrMessageID, PtpPortDS *ptpPortDS )
+msgUnpackWRSignalingMsg	ptpd.h	/^void msgUnpackWRSignalingMsg(void *buf,MsgSignaling *signalingMsg, Enumeration16 *wrMessageID, $/;"	p	signature:(void *buf,MsgSignaling *signalingMsg, Enumeration16 *wrMessageID, PtpPortDS *ptpPortDS )
+mu	dep/datatypes_dep.h	/^	wr_timestamp_t mu;$/;"	m	struct:__anon9	access:public
+mu	ptpd_exports.h	/^	int64_t mu;$/;"	m	struct:__anon1	access:public
+multiProtocol	protocol.c	/^void multiProtocol(RunTimeOpts *rtOpts,)$/;"	f	signature:(RunTimeOpts *rtOpts,)
+multiProtocol	ptpd.h	/^void multiProtocol(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS);$/;"	p	signature:(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+multicastAddr	dep/datatypes_dep.h	/^	wr_sockaddr_t multicastAddr;$/;"	m	struct:__anon8	access:public
+name	datatypes.h	/^	char name [16];$/;"	m	struct:__anon47	access:public
+nanoSleep	dep/ptpd_dep.h	/^Boolean nanoSleep(TimeInternal*);$/;"	p	signature:(TimeInternal*)
+nanoseconds	datatypes.h	/^	Integer32 nanoseconds;$/;"	m	struct:__anon46	access:public
+nanosecondsField	datatypes.h	/^	UInteger32 nanosecondsField;$/;"	m	struct:__anon28	access:public
+netEnablePhaseTracking	dep/net.c	/^int netEnablePhaseTracking(NetPath *netPath)$/;"	f	signature:(NetPath *netPath)
+netEnablePhaseTracking	dep/ptpd_dep.h	/^int netEnablePhaseTracking(NetPath*);$/;"	p	signature:(NetPath*)
+netInit	dep/net.c	/^Boolean netInit(NetPath *netPath, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(NetPath *netPath, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+netInit	dep/ptpd_dep.h	/^Boolean netInit(NetPath*,RunTimeOpts*,PtpPortDS*);$/;"	p	signature:(NetPath*,RunTimeOpts*,PtpPortDS*)
+netPath	datatypes.h	/^	NetPath netPath;$/;"	m	struct:__anon50	access:public
+netPath_display	display.c	/^void netPath_display(NetPath *net)$/;"	f	signature:(NetPath *net)
+netPath_display	ptpd.h	/^void netPath_display(NetPath*);$/;"	p	signature:(NetPath*)
+netRecvMsg	dep/net.c	/^ssize_t netRecvMsg(Octet *buf, NetPath *netPath, wr_timestamp_t *current_rx_ts)$/;"	f	signature:(Octet *buf, NetPath *netPath, wr_timestamp_t *current_rx_ts)
+netRecvMsg	dep/ptpd_dep.h	/^ssize_t netRecvMsg(Octet*, NetPath*, wr_timestamp_t*);$/;"	p	signature:(Octet*, NetPath*, wr_timestamp_t*)
+netSelect	dep/net.c	/^int netSelect(TimeInternal *timeout, NetPath *netPath)$/;"	f	signature:(TimeInternal *timeout, NetPath *netPath)
+netSelect	dep/ptpd_dep.h	/^int netSelect(TimeInternal*,NetPath*);$/;"	p	signature:(TimeInternal*,NetPath*)
+netSendEvent	dep/net.c	/^ssize_t netSendEvent(Octet *buf, UInteger16 length, NetPath *netPath, wr_timestamp_t *current_tx_ts)$/;"	f	signature:(Octet *buf, UInteger16 length, NetPath *netPath, wr_timestamp_t *current_tx_ts)
+netSendEvent	dep/ptpd_dep.h	/^ssize_t netSendEvent(Octet*, UInteger16, NetPath*, wr_timestamp_t*);$/;"	p	signature:(Octet*, UInteger16, NetPath*, wr_timestamp_t*)
+netSendGeneral	dep/net.c	/^ssize_t netSendGeneral(Octet *buf, UInteger16 length, NetPath *netPath)$/;"	f	signature:(Octet *buf, UInteger16 length, NetPath *netPath)
+netSendGeneral	dep/ptpd_dep.h	/^ssize_t netSendGeneral(Octet*,UInteger16,NetPath*);$/;"	p	signature:(Octet*,UInteger16,NetPath*)
+netSendPeerEvent	dep/net.c	/^ssize_t netSendPeerEvent(Octet *buf,UInteger16 length,NetPath *netPath,wr_timestamp_t *current_tx_ts)$/;"	f	signature:(Octet *buf,UInteger16 length,NetPath *netPath,wr_timestamp_t *current_tx_ts)
+netSendPeerEvent	dep/ptpd_dep.h	/^ssize_t netSendPeerEvent(Octet*,UInteger16,NetPath*,wr_timestamp_t*);$/;"	p	signature:(Octet*,UInteger16,NetPath*,wr_timestamp_t*)
+netSendPeerGeneral	dep/net.c	/^ssize_t netSendPeerGeneral(Octet *buf,UInteger16 length,NetPath *netPath)$/;"	f	signature:(Octet *buf,UInteger16 length,NetPath *netPath)
+netSendPeerGeneral	dep/ptpd_dep.h	/^ssize_t netSendPeerGeneral(Octet*,UInteger16,NetPath*);$/;"	p	signature:(Octet*,UInteger16,NetPath*)
+netStartup	dep/net.c	/^Boolean netStartup()$/;"	f
+netStartup	dep/ptpd_dep.h	/^Boolean netStartup();$/;"	p	signature:()
+networkProtocol	datatypes.h	/^	Enumeration16 networkProtocol;$/;"	m	struct:__anon30	access:public
+next_state	dep/datatypes_dep.h	/^	int next_state;$/;"	m	struct:__anon9	access:public
+noAdjust	datatypes.h	/^	Boolean		noAdjust;$/;"	m	struct:__anon53	access:public
+noResetClock	datatypes.h	/^	Boolean		noResetClock;$/;"	m	struct:__anon53	access:public
+normalizeTime	arith.c	/^void normalizeTime(TimeInternal *r)$/;"	f	signature:(TimeInternal *r)
+normalizeTime	ptpd.h	/^void normalizeTime(TimeInternal*);$/;"	p	signature:(TimeInternal*)
+nsec_offset	dep/datatypes_dep.h	/^	wr_timestamp_t nsec_offset;$/;"	m	struct:__anon9	access:public
+nsec_prev	dep/datatypes_dep.h	/^	Integer32  nsec_prev, y;$/;"	m	struct:__anon6	access:public
+nsec_prev	dep/datatypes_dep.h	/^	Integer32  nsec_prev, y;$/;"	m	struct:__anon7	access:public
+numberPorts	datatypes.h	/^	UInteger16 numberPorts;$/;"	m	struct:__anon49	access:public
+number_foreign_records	datatypes.h	/^	UInteger16 number_foreign_records;$/;"	m	struct:__anon50	access:public
+observedParentClockPhaseChangeRate	datatypes.h	/^	Integer32 observedParentClockPhaseChangeRate;$/;"	m	struct:__anon49	access:public
+observedParentOffsetScaledLogVariance	datatypes.h	/^	UInteger16 observedParentOffsetScaledLogVariance;$/;"	m	struct:__anon49	access:public
+observed_drift	datatypes.h	/^	Integer32 	observed_drift;$/;"	m	struct:__anon50	access:public
+offsetFromMaster	datatypes.h	/^	TimeInternal offsetFromMaster;$/;"	m	struct:__anon49	access:public
+offsetScaledLogVariance	datatypes.h	/^	UInteger16 offsetScaledLogVariance;$/;"	m	struct:__anon31	access:public
+offset_first_updated	datatypes.h	/^	Boolean		offset_first_updated;$/;"	m	struct:__anon53	access:public
+offset_from_master_filter	dep/datatypes_dep.h	/^} offset_from_master_filter;$/;"	t	typeref:struct:__anon6
+ofm_filt	datatypes.h	/^	offset_from_master_filter  ofm_filt;$/;"	m	struct:__anon50	access:public
+one_way_delay_filter	dep/datatypes_dep.h	/^} one_way_delay_filter;$/;"	t	typeref:struct:__anon7
+originTimestamp	datatypes.h	/^	Timestamp originTimestamp;$/;"	m	struct:__anon36	access:public
+originTimestamp	datatypes.h	/^	Timestamp originTimestamp;$/;"	m	struct:__anon37	access:public
+originTimestamp	datatypes.h	/^	Timestamp originTimestamp;$/;"	m	struct:__anon38	access:public
+originTimestamp	datatypes.h	/^	Timestamp originTimestamp;$/;"	m	struct:__anon41	access:public
+otherNodeCalPeriod	datatypes.h	/^	UInteger32 otherNodeCalPeriod;   $/;"	m	struct:__anon50	access:public
+otherNodeCalRetry	datatypes.h	/^	UInteger8 otherNodeCalRetry;$/;"	m	struct:__anon50	access:public
+otherNodeCalSendPattern	datatypes.h	/^	UInteger16 otherNodeCalSendPattern; $/;"	m	struct:__anon50	access:public
+otherNodeDeltaRx	datatypes.h	/^	FixedDelta otherNodeDeltaRx; 	$/;"	m	struct:__anon50	access:public
+otherNodeDeltaTx	datatypes.h	/^	FixedDelta otherNodeDeltaTx; $/;"	m	struct:__anon50	access:public
+outboundLatency	datatypes.h	/^	TimeInternal	inboundLatency, outboundLatency;$/;"	m	struct:__anon53	access:public
+overrideClockIdentity	datatypes.h	/^	UInteger8	overrideClockIdentity;$/;"	m	struct:__anon53	access:public
+owd_filt	datatypes.h	/^	one_way_delay_filter  owd_filt;$/;"	m	struct:__anon50	access:public
+p1	bmc.c	/^void p1(PtpPortDS *ptpPortDS)$/;"	f	signature:(PtpPortDS *ptpPortDS)
+p1	ptpd.h	/^void p1(PtpPortDS*);$/;"	p	signature:(PtpPortDS*)
+pDelayReq_tx_ts	datatypes.h	/^	wr_timestamp_t pDelayReq_tx_ts; \/\/ t3 S (P2P)$/;"	m	struct:__anon50	access:public
+pDelayResp_tx_ts	datatypes.h	/^	wr_timestamp_t pDelayResp_tx_ts;\/\/ t5 M (P2P)$/;"	m	struct:__anon50	access:public
+parentCalibrated	datatypes.h	/^	Boolean parentCalibrated;$/;"	m	struct:__anon50	access:public
+parentIsWRnode	datatypes.h	/^	Boolean parentIsWRnode;$/;"	m	struct:__anon50	access:public
+parentPortIdentity	datatypes.h	/^	PortIdentity parentPortIdentity;$/;"	m	struct:__anon49	access:public
+parentStats	datatypes.h	/^	Boolean parentStats;$/;"	m	struct:__anon49	access:public
+parentWrConfig	datatypes.h	/^	Enumeration8 parentWrConfig; $/;"	m	struct:__anon50	access:public
+parentWrModeON	datatypes.h	/^	Boolean parentWrModeON; $/;"	m	struct:__anon50	access:public
+parentWrNodeMode	datatypes.h	/^	Enumeration8 parentWrNodeMode; $/;"	m	struct:__anon50	access:public
+pdelayMS	datatypes.h	/^	TimeInternal	pdelayMS;$/;"	m	struct:__anon50	access:public
+pdelayReq	datatypes.h	/^		IntervalTimer pdelayReq;$/;"	m	struct:__anon50::__anon52	access:public
+pdelayResp	datatypes.h	/^        IntervalTimer pdelayResp;$/;"	m	struct:__anon50::__anon52	access:public
+pdelaySM	datatypes.h	/^	TimeInternal	pdelaySM;$/;"	m	struct:__anon50	access:public
+pdelay_req_receive_time	datatypes.h	/^	TimeInternal  pdelay_req_receive_time;$/;"	m	struct:__anon50	access:public
+pdelay_req_send_time	datatypes.h	/^	TimeInternal  pdelay_req_send_time;$/;"	m	struct:__anon50	access:public
+pdelay_resp_receive_time	datatypes.h	/^	TimeInternal  pdelay_resp_receive_time;$/;"	m	struct:__anon50	access:public
+pdelay_resp_send_time	datatypes.h	/^	TimeInternal  pdelay_resp_send_time;$/;"	m	struct:__anon50	access:public
+peerMeanPathDelay	datatypes.h	/^	TimeInternal peerMeanPathDelay;$/;"	m	struct:__anon50	access:public
+peerMulticastAddr	dep/datatypes_dep.h	/^	wr_sockaddr_t peerMulticastAddr;$/;"	m	struct:__anon8	access:public
+ph_adjust	dep/wr_servo.c	/^static int ph_adjust = 0;$/;"	v	file:
+phase	datatypes.h	/^	Integer32 phase;$/;"	m	struct:__anon46	access:public
+phase_to_cf_units	protocol.c	/^static Integer32 phase_to_cf_units(Integer32 phase)$/;"	f	file:	signature:(Integer32 phase)
+phyCalibrationRequired	datatypes.h	/^	Boolean 	phyCalibrationRequired;$/;"	m	struct:__anon53	access:public
+phyCalibrationRequired	datatypes.h	/^	Boolean phyCalibrationRequired;$/;"	m	struct:__anon50	access:public
+picos_to_ts	dep/wr_servo.c	/^static wr_timestamp_t picos_to_ts(int64_t picos)$/;"	f	file:	signature:(int64_t picos)
+portIdentity	datatypes.h	/^	PortIdentity portIdentity;$/;"	m	struct:__anon50	access:public
+portIdentity_display	display.c	/^void portIdentity_display(PortIdentity *portIdentity){$/;"	f	signature:(PortIdentity *portIdentity)
+portIdentity_display	ptpd.h	/^void portIdentity_display(PortIdentity*);$/;"	p	signature:(PortIdentity*)
+portNumber	datatypes.h	/^	UInteger16	portNumber;$/;"	m	struct:__anon53	access:public
+portNumber	datatypes.h	/^	UInteger16 portNumber;$/;"	m	struct:__anon29	access:public
+portState	datatypes.h	/^	Enumeration8 portState;$/;"	m	struct:__anon50	access:public
+port_communication_technology	datatypes.h	/^	UInteger8 port_communication_technology;$/;"	m	struct:__anon50	access:public
+port_uuid_field	datatypes.h	/^	Octet port_uuid_field[PTP_UUID_LENGTH];$/;"	m	struct:__anon50	access:public
+pow_2	ptpd.h	/^static inline unsigned long pow_2(int exp)$/;"	f	signature:(int exp)
+preciseOriginTimestamp	datatypes.h	/^	Timestamp preciseOriginTimestamp;$/;"	m	struct:__anon40	access:public
+preq	datatypes.h	/^		MsgPDelayReq  preq;$/;"	m	union:__anon50::__anon51	access:public
+presp	datatypes.h	/^		MsgPDelayResp  presp;$/;"	m	union:__anon50::__anon51	access:public
+prespfollow	datatypes.h	/^		MsgPDelayRespFollowUp  prespfollow;$/;"	m	union:__anon50::__anon51	access:public
+prev_t4	dep/datatypes_dep.h	/^	wr_timestamp_t prev_t4;$/;"	m	struct:__anon9	access:public
+primarySlavePortNumber	datatypes.h	/^	UInteger16 primarySlavePortNumber;$/;"	m	struct:__anon49	access:public
+primarySource	datatypes.h	/^	Boolean		primarySource;$/;"	m	struct:__anon53	access:public
+printf_bits	wr_protocol.c	/^char *printf_bits(UInteger32 bits)$/;"	f	signature:(UInteger32 bits)
+printf_bits	wr_protocol.h	/^char *printf_bits(UInteger32 bits);$/;"	p	signature:(UInteger32 bits)
+priority1	datatypes.h	/^	UInteger8	priority1;$/;"	m	struct:__anon53	access:public
+priority1	datatypes.h	/^	UInteger8 priority1;$/;"	m	struct:__anon49	access:public
+priority2	datatypes.h	/^	UInteger8	priority2;$/;"	m	struct:__anon53	access:public
+priority2	datatypes.h	/^	UInteger8 priority2;$/;"	m	struct:__anon49	access:public
+protocol	protocol.c	/^void protocol(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+protocol	ptpd.h	/^void protocol(RunTimeOpts*,PtpPortDS*);$/;"	p	signature:(RunTimeOpts*,PtpPortDS*)
+ptpClockDS	datatypes.h	/^	PtpClockDS *ptpClockDS;$/;"	m	struct:__anon50	access:public
+ptpPortDS	dep/startup.c	/^PtpPortDS *ptpPortDS;$/;"	v
+ptpTimescale	datatypes.h	/^	Boolean ptpTimescale;$/;"	m	struct:__anon49	access:public
+ptp_ch	ptpd_exports.c	/^static struct minipc_ch *ptp_ch;$/;"	v	typeref:struct:minipc_ch	file:
+ptpdShutdown	dep/ptpd_dep.h	/^void ptpdShutdown(void);$/;"	p	signature:(void)
+ptpdShutdown	dep/startup.c	/^void ptpdShutdown()$/;"	f
+ptpdStartup	dep/ptpd_dep.h	/^PtpPortDS * ptpdStartup(int,char**,Integer16*,RunTimeOpts*,PtpClockDS*);$/;"	p	signature:(int,char**,Integer16*,RunTimeOpts*,PtpClockDS*)
+ptpdStartup	dep/startup.c	/^PtpPortDS * ptpdStartup(int argc, char **argv, Integer16 *ret, RunTimeOpts *rtOpts,PtpClockDS *ptpClockDS)$/;"	f	signature:(int argc, char **argv, Integer16 *ret, RunTimeOpts *rtOpts,PtpClockDS *ptpClockDS)
+ptpd_handle_wripc	ptpd.h	/^	extern void ptpd_handle_wripc(void);$/;"	p	signature:(void)
+ptpd_handle_wripc	ptpd_exports.c	/^void ptpd_handle_wripc()$/;"	f
+ptpd_init_exports	ptpd.h	/^	extern void ptpd_init_exports(void);$/;"	p	signature:(void)
+ptpd_init_exports	ptpd_exports.c	/^void ptpd_init_exports(void)$/;"	f	signature:(void)
+ptpdexp_cmd	ptpd_exports.c	/^int ptpdexp_cmd(int cmd, int value)$/;"	f	signature:(int cmd, int value)
+ptpdexp_cmd	ptpd_exports.h	/^extern int ptpdexp_cmd(int cmd, int value);$/;"	p	signature:(int cmd, int value)
+ptpdexp_get_sync_state	ptpd_exports.c	/^int ptpdexp_get_sync_state(ptpdexp_sync_state_t *state)$/;"	f	signature:(ptpdexp_sync_state_t *state)
+ptpdexp_get_sync_state	ptpd_exports.h	/^extern int ptpdexp_get_sync_state(ptpdexp_sync_state_t *state);$/;"	p	signature:(ptpdexp_sync_state_t *state)
+ptpdexp_sync_state_t	ptpd_exports.h	/^}  ptpdexp_sync_state_t ;$/;"	t	typeref:struct:__anon1
+put_be16	dep/msg.c	/^static inline void put_be16(void *ptr, UInteger16 x)$/;"	f	file:	signature:(void *ptr, UInteger16 x)
+put_be32	dep/msg.c	/^static inline void put_be32(void *ptr, UInteger32 x)$/;"	f	file:	signature:(void *ptr, UInteger32 x)
+receiveTimestamp	datatypes.h	/^	Timestamp receiveTimestamp;$/;"	m	struct:__anon39	access:public
+receptionPortNumber	datatypes.h	/^	UInteger16 receptionPortNumber;$/;"	m	struct:__anon48	access:public
+record_update	datatypes.h	/^	Boolean  record_update;$/;"	m	struct:__anon50	access:public
+recvPDelayReqSequenceId	datatypes.h	/^	UInteger16  recvPDelayReqSequenceId;$/;"	m	struct:__anon50	access:public
+recvPDelayRespSequenceId	datatypes.h	/^    UInteger16  recvPDelayRespSequenceId;$/;"	m	struct:__anon50	access:public
+recvSyncSequenceId	datatypes.h	/^	UInteger16  recvSyncSequenceId;$/;"	m	struct:__anon50	access:public
+req	datatypes.h	/^		MsgDelayReq  req;$/;"	m	union:__anon50::__anon51	access:public
+requestReceiptTimestamp	datatypes.h	/^	Timestamp requestReceiptTimestamp;$/;"	m	struct:__anon42	access:public
+requestingPortIdentity	datatypes.h	/^	PortIdentity requestingPortIdentity;$/;"	m	struct:__anon39	access:public
+requestingPortIdentity	datatypes.h	/^	PortIdentity requestingPortIdentity;$/;"	m	struct:__anon42	access:public
+requestingPortIdentity	datatypes.h	/^	PortIdentity requestingPortIdentity;$/;"	m	struct:__anon43	access:public
+resp	datatypes.h	/^		MsgDelayResp resp;$/;"	m	union:__anon50::__anon51	access:public
+responseOriginTimestamp	datatypes.h	/^	Timestamp responseOriginTimestamp;$/;"	m	struct:__anon43	access:public
+returnCurrentWRMainState	wr_protocol.c	/^UInteger8 returnCurrentWRMainState( PtpPortDS *ptpPortDS)$/;"	f	signature:( PtpPortDS *ptpPortDS)
+returnCurrentWRMainState	wr_protocol.h	/^UInteger8 returnCurrentWRMainState(PtpPortDS*);$/;"	p	signature:(PtpPortDS*)
+rtOpts	ptpd.c	/^RunTimeOpts rtOpts = {$/;"	v
+s	datatypes.h	/^	Integer16	s;$/;"	m	struct:__anon53	access:public
+s1	bmc.c	/^void s1(MsgHeader *header,MsgAnnounce *announce,PtpPortDS *ptpPortDS)$/;"	f	signature:(MsgHeader *header,MsgAnnounce *announce,PtpPortDS *ptpPortDS)
+s1	ptpd.h	/^void s1(MsgHeader*,MsgAnnounce*,PtpPortDS*);$/;"	p	signature:(MsgHeader*,MsgAnnounce*,PtpPortDS*)
+s2	bmc.c	/^void s2(MsgHeader *header,MsgAnnounce *announce,PtpPortDS *ptpPortDS)$/;"	f	signature:(MsgHeader *header,MsgAnnounce *announce,PtpPortDS *ptpPortDS)
+s2	ptpd.h	/^void s2(MsgHeader*,MsgAnnounce*,PtpPortDS*);$/;"	p	signature:(MsgHeader*,MsgAnnounce*,PtpPortDS*)
+s_exp	dep/datatypes_dep.h	/^	Integer32  s_exp;$/;"	m	struct:__anon7	access:public
+scaledNanoseconds	datatypes.h	/^	Integer64 scaledNanoseconds;$/;"	m	struct:__anon26	access:public
+scaledPicoseconds	datatypes.h	/^	UInteger64 scaledPicoseconds;$/;"	m	struct:__anon27	access:public
+scalled_alpha	datatypes.h	/^	UInteger32 scalled_alpha;	 \/\/ not used :-($/;"	m	struct:__anon50	access:public
+secondBestForeign	datatypes.h	/^	ForeignMasterRecord *secondBestForeign;$/;"	m	struct:__anon49	access:public
+secondaryForeignMaster	datatypes.h	/^	ForeignMasterRecord secondaryForeignMaster;$/;"	m	struct:__anon50	access:public
+secondarySlavePortNumber	datatypes.h	/^	UInteger16 secondarySlavePortNumber;$/;"	m	struct:__anon49	access:public
+seconds	datatypes.h	/^	Integer32 seconds;$/;"	m	struct:__anon46	access:public
+secondsField	datatypes.h	/^	UInteger48 secondsField;$/;"	m	struct:__anon28	access:public
+selfAddr	dep/datatypes_dep.h	/^	wr_sockaddr_t selfAddr;$/;"	m	struct:__anon8	access:public
+sentAnnounceSequenceId	datatypes.h	/^	UInteger16  sentAnnounceSequenceId;$/;"	m	struct:__anon50	access:public
+sentDelayReqSequenceId	datatypes.h	/^	UInteger16  sentDelayReqSequenceId;$/;"	m	struct:__anon50	access:public
+sentPDelayReq	datatypes.h	/^	Boolean  sentPDelayReq;$/;"	m	struct:__anon50	access:public
+sentPDelayReqSequenceId	datatypes.h	/^	UInteger16  sentPDelayReqSequenceId;$/;"	m	struct:__anon50	access:public
+sentPDelayRespSequenceId	datatypes.h	/^    UInteger16  sentPDelayRespSequenceId;$/;"	m	struct:__anon50	access:public
+sentSyncSequenceId	datatypes.h	/^	UInteger16  sentSyncSequenceId;$/;"	m	struct:__anon50	access:public
+sequenceId	datatypes.h	/^	UInteger16 sequenceId;$/;"	m	struct:__anon35	access:public
+servo_state_valid	dep/wr_servo.c	/^int servo_state_valid = 0;$/;"	v
+setFlag	dep/ptpd_dep.h	92;"	d
+setTime	dep/ptpd_dep.h	/^void setTime(TimeInternal*);$/;"	p	signature:(TimeInternal*)
+severityCode	datatypes.h	/^	Enumeration8 severityCode;$/;"	m	struct:__anon34	access:public
+sharedPortsLoop	protocol.c	/^void sharedPortsLoop(PtpPortDS *ptpPortDS)$/;"	f	signature:(PtpPortDS *ptpPortDS)
+shift16	dep/ptpd_dep.h	54;"	d
+shift16	dep/ptpd_dep.h	57;"	d
+shift8	dep/ptpd_dep.h	53;"	d
+shift8	dep/ptpd_dep.h	56;"	d
+signaling	datatypes.h	/^		MsgSignaling signaling;$/;"	m	union:__anon50::__anon51	access:public
+singlePortLoop	protocol.c	/^void singlePortLoop(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS, int portIndex)$/;"	f	signature:(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS, int portIndex)
+slave_servo_state	ptpd_exports.h	/^	char slave_servo_state[32];$/;"	m	struct:__anon1	access:public
+slave_to_master_delay	datatypes.h	/^	TimeInternal  slave_to_master_delay;$/;"	m	struct:__anon50	access:public
+sourcePortIdentity	datatypes.h	/^	PortIdentity sourcePortIdentity;$/;"	m	struct:__anon35	access:public
+startingBoundaryHops	datatypes.h	/^	UInteger8 startingBoundaryHops;$/;"	m	struct:__anon45	access:public
+state	dep/datatypes_dep.h	/^	int state;$/;"	m	struct:__anon9	access:public
+stepsRemoved	datatypes.h	/^	UInteger16 stepsRemoved;$/;"	m	struct:__anon36	access:public
+stepsRemoved	datatypes.h	/^	UInteger16 stepsRemoved;$/;"	m	struct:__anon49	access:public
+subTime	arith.c	/^void subTime(TimeInternal *r, TimeInternal *x, TimeInternal *y)$/;"	f	signature:(TimeInternal *r, TimeInternal *x, TimeInternal *y)
+subTime	ptpd.h	/^void subTime(TimeInternal*,TimeInternal*,TimeInternal*);$/;"	p	signature:(TimeInternal*,TimeInternal*,TimeInternal*)
+sync	datatypes.h	/^		IntervalTimer sync;$/;"	m	struct:__anon50::__anon52	access:public
+sync	datatypes.h	/^		MsgSync  sync;$/;"	m	union:__anon50::__anon51	access:public
+syncInterval	datatypes.h	/^	Integer8	syncInterval;$/;"	m	struct:__anon53	access:public
+sync_receive_time	datatypes.h	/^	TimeInternal  sync_receive_time;$/;"	m	struct:__anon50	access:public
+sync_source	ptpd_exports.h	/^	char sync_source[32];$/;"	m	struct:__anon1	access:public
+synch_tx_ts	datatypes.h	/^	wr_timestamp_t synch_tx_ts;     \/\/ t1 M$/;"	m	struct:__anon50	access:public
+t1	dep/datatypes_dep.h	/^	wr_timestamp_t t1, t2, t3, t4;$/;"	m	struct:__anon9	access:public
+t2	dep/datatypes_dep.h	/^	wr_timestamp_t t1, t2, t3, t4;$/;"	m	struct:__anon9	access:public
+t3	dep/datatypes_dep.h	/^	wr_timestamp_t t1, t2, t3, t4;$/;"	m	struct:__anon9	access:public
+t4	dep/datatypes_dep.h	/^	wr_timestamp_t t1, t2, t3, t4;$/;"	m	struct:__anon9	access:public
+t_start	datatypes.h	/^	unsigned long long t_start;$/;"	m	struct:__anon47	access:public
+targetPortIdentity	datatypes.h	/^	PortIdentity targetPortIdentity;$/;"	m	struct:__anon44	access:public
+targetPortIdentity	datatypes.h	/^	PortIdentity targetPortIdentity;$/;"	m	struct:__anon45	access:public
+textField	datatypes.h	/^	Octet* textField;$/;"	m	struct:__anon33	access:public
+timeInternal_display	display.c	/^void timeInternal_display(TimeInternal *timeInternal) {$/;"	f	signature:(TimeInternal *timeInternal)
+timeInternal_display	ptpd.h	/^void timeInternal_display(TimeInternal*);$/;"	p	signature:(TimeInternal*)
+timeInterval_display	display.c	/^void timeInterval_display(TimeInterval *timeInterval){$/;"	f	signature:(TimeInterval *timeInterval)
+timeInterval_display	ptpd.h	/^void timeInterval_display(TimeInterval*);$/;"	p	signature:(TimeInterval*)
+timeSource	datatypes.h	/^	Enumeration8 timeSource;$/;"	m	struct:__anon36	access:public
+timeSource	datatypes.h	/^	Enumeration8 timeSource;$/;"	m	struct:__anon49	access:public
+timeTraceable	datatypes.h	/^	Boolean timeTraceable;$/;"	m	struct:__anon49	access:public
+timeint_to_wr	dep/wr_servo.c	/^wr_timestamp_t timeint_to_wr(TimeInternal t)$/;"	f	signature:(TimeInternal t)
+timerExpired	dep/ptpd_dep.h	/^Boolean timerExpired(IntervalTimer *itimer);$/;"	p	signature:(IntervalTimer *itimer)
+timerExpired	dep/timer.c	/^Boolean timerExpired(IntervalTimer *itimer)$/;"	f	signature:(IntervalTimer *itimer)
+timerInit	dep/ptpd_dep.h	/^void timerInit(IntervalTimer *itimer, const char *name);$/;"	p	signature:(IntervalTimer *itimer, const char *name)
+timerInit	dep/timer.c	/^void timerInit(IntervalTimer *itimer, const char *name)$/;"	f	signature:(IntervalTimer *itimer, const char *name)
+timerStart	dep/ptpd_dep.h	/^void timerStart(IntervalTimer *itimer, int interval);$/;"	p	signature:(IntervalTimer *itimer, int interval)
+timerStart	dep/timer.c	/^void timerStart(IntervalTimer *itimer, int interval)$/;"	f	signature:(IntervalTimer *itimer, int interval)
+timerStop	dep/ptpd_dep.h	/^void timerStop(IntervalTimer *itimer);$/;"	p	signature:(IntervalTimer *itimer)
+timerStop	dep/timer.c	/^void timerStop(IntervalTimer *itimer)$/;"	f	signature:(IntervalTimer *itimer)
+timers	datatypes.h	/^	} timers;$/;"	m	struct:__anon50	typeref:struct:__anon50::__anon52	access:public
+timestamp_display	display.c	/^void timestamp_display(Timestamp *timestamp) {$/;"	f	signature:(Timestamp *timestamp)
+tlv	datatypes.h	/^	char* tlv;$/;"	m	struct:__anon44	access:public
+tlv	datatypes.h	/^	char* tlv;$/;"	m	struct:__anon45	access:public
+tlvType	datatypes.h	/^	Enumeration16 tlvType;$/;"	m	struct:__anon32	access:public
+toInternalTime	arith.c	/^void toInternalTime(TimeInternal *internal, Timestamp *external)$/;"	f	signature:(TimeInternal *internal, Timestamp *external)
+toInternalTime	ptpd.h	/^void toInternalTime(TimeInternal*,Timestamp*);$/;"	p	signature:(TimeInternal*,Timestamp*)
+toState	protocol.c	/^void toState(UInteger8 state, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(UInteger8 state, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+toState	protocol.c	/^void toState(UInteger8,RunTimeOpts*,PtpPortDS*);$/;"	p	file:	signature:(UInteger8,RunTimeOpts*,PtpPortDS*)
+toState	ptpd.h	/^extern void toState(UInteger8 state, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS);$/;"	p	signature:(UInteger8 state, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+toWRState	wr_protocol.c	/^void toWRState(UInteger8 enteringState, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(UInteger8 enteringState, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+toWRState	wr_protocol.h	/^    void toWRState(UInteger8 state, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS);$/;"	p	signature:(UInteger8 state, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+total_asymmetry	ptpd_exports.h	/^	int64_t total_asymmetry;$/;"	m	struct:__anon1	access:public
+tracking_enabled	dep/wr_servo.c	/^static int tracking_enabled = 1;$/;"	v	file:
+tracking_enabled	ptpd_exports.h	/^	int tracking_enabled;$/;"	m	struct:__anon1	access:public
+transportSpecific	datatypes.h	/^	Nibble transportSpecific;$/;"	m	struct:__anon35	access:public
+ts_add	dep/wr_servo.c	/^static wr_timestamp_t ts_add(wr_timestamp_t a, wr_timestamp_t b)$/;"	f	file:	signature:(wr_timestamp_t a, wr_timestamp_t b)
+ts_hardwarize	dep/wr_servo.c	/^static wr_timestamp_t ts_hardwarize(wr_timestamp_t ts, int clock_period_ps)$/;"	f	file:	signature:(wr_timestamp_t ts, int clock_period_ps)
+ts_sub	dep/wr_servo.c	/^static wr_timestamp_t ts_sub(wr_timestamp_t a, wr_timestamp_t b)$/;"	f	file:	signature:(wr_timestamp_t a, wr_timestamp_t b)
+ts_to_picos	dep/wr_servo.c	/^static int64_t ts_to_picos(wr_timestamp_t ts)$/;"	f	file:	signature:(wr_timestamp_t ts)
+twoStepFlag	datatypes.h	/^	Boolean twoStepFlag;$/;"	m	struct:__anon49	access:public
+uInteger48_display	display.c	/^void uInteger48_display(UInteger48 *bigint){$/;"	f	signature:(UInteger48 *bigint)
+unicastAddr	dep/datatypes_dep.h	/^	wr_sockaddr_t unicastAddr;$/;"	m	struct:__anon8	access:public
+unicastAddress	datatypes.h	/^	Octet		unicastAddress[NET_ADDRESS_LENGTH];$/;"	m	struct:__anon53	access:public
+unicast_display	display.c	/^void unicast_display(Octet *unicast){$/;"	f	signature:(Octet *unicast)
+unicast_display	ptpd.h	/^void unicast_display(Octet*);$/;"	p	signature:(Octet*)
+updateClock	dep/ptpd_dep.h	/^void updateClock(RunTimeOpts*,PtpPortDS*);$/;"	p	signature:(RunTimeOpts*,PtpPortDS*)
+updateClock	dep/servo.c	/^void updateClock(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+updateDelay	dep/ptpd_dep.h	/^void updateDelay (one_way_delay_filter*, RunTimeOpts*, PtpPortDS*,TimeInternal*);$/;"	p	signature:(one_way_delay_filter*, RunTimeOpts*, PtpPortDS*,TimeInternal*)
+updateDelay	dep/servo.c	/^void updateDelay (one_way_delay_filter *owd_filt, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS,TimeInternal *correctionField)$/;"	f	signature:(one_way_delay_filter *owd_filt, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS,TimeInternal *correctionField)
+updateOffset	dep/ptpd_dep.h	/^void updateOffset(TimeInternal*,TimeInternal*,$/;"	p	signature:(TimeInternal*,TimeInternal*, offset_from_master_filter*,RunTimeOpts*,PtpPortDS*,TimeInternal*)
+updateOffset	dep/servo.c	/^void updateOffset(TimeInternal *send_time, TimeInternal *recv_time,$/;"	f	signature:(TimeInternal *send_time, TimeInternal *recv_time, offset_from_master_filter *ofm_filt, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS,TimeInternal *correctionField)
+updatePeerDelay	dep/ptpd_dep.h	/^void updatePeerDelay (one_way_delay_filter*, RunTimeOpts*,PtpPortDS*,TimeInternal*,Boolean);$/;"	p	signature:(one_way_delay_filter*, RunTimeOpts*,PtpPortDS*,TimeInternal*,Boolean)
+updatePeerDelay	dep/servo.c	/^void updatePeerDelay (one_way_delay_filter *owd_filt, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS,TimeInternal *correctionField,Boolean twoStep)$/;"	f	signature:(one_way_delay_filter *owd_filt, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS,TimeInternal *correctionField,Boolean twoStep)
+update_count	ptpd_exports.h	/^	int64_t update_count;$/;"	m	struct:__anon1	access:public
+valid	ptpd_exports.h	/^	int valid;$/;"	m	struct:__anon1	access:public
+valueField	datatypes.h	/^	Octet* valueField;$/;"	m	struct:__anon32	access:public
+versionNumber	datatypes.h	/^	UInteger4 versionNumber;$/;"	m	struct:__anon50	access:public
+versionPTP	datatypes.h	/^	UInteger4 versionPTP;$/;"	m	struct:__anon35	access:public
+waitingForFollow	datatypes.h	/^	Boolean  waitingForFollow;$/;"	m	struct:__anon50	access:public
+wrConfig	datatypes.h	/^	Enumeration8 	wrConfig;	$/;"	m	struct:__anon53	access:public
+wrConfig	datatypes.h	/^	Enumeration8 wrConfig;	$/;"	m	struct:__anon50	access:public
+wrMode	datatypes.h	/^	Enumeration8 wrMode; $/;"	m	struct:__anon50	access:public
+wrModeON	datatypes.h	/^	Boolean wrModeON; $/;"	m	struct:__anon50	access:public
+wrPortState	datatypes.h	/^	Enumeration8  wrPortState;$/;"	m	struct:__anon50	access:public
+wrSlaveRole	datatypes.h	/^	Enumeration8 wrSlaveRole;$/;"	m	struct:__anon50	access:public
+wrSock	dep/datatypes_dep.h	/^	wr_socket_t *wrSock;$/;"	m	struct:__anon8	access:public
+wrStateRetry	datatypes.h	/^	UInteger8 	wrStateRetry;$/;"	m	struct:__anon53	access:public
+wrStateRetry	datatypes.h	/^	UInteger8 wrStateRetry;$/;"	m	struct:__anon50	access:public
+wrStateTimeout	datatypes.h	/^	UInteger32 	wrStateTimeout;$/;"	m	struct:__anon53	access:public
+wrStateTimeout	datatypes.h	/^	UInteger32 wrStateTimeout; $/;"	m	struct:__anon50	access:public
+wrTimeouts	datatypes.h	/^	int wrTimeouts[WR_TIMER_ARRAY_SIZE];$/;"	m	struct:__anon50	access:public
+wrTimerExpired	wr_protocol.c	/^void wrTimerExpired(UInteger8 currentState, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS, Enumeration8 wrMode)$/;"	f	signature:(UInteger8 currentState, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS, Enumeration8 wrMode)
+wrTimerExpired	wr_protocol.h	/^void wrTimerExpired(UInteger8 currentState, RunTimeOpts *rtOpts,$/;"	p	signature:(UInteger8 currentState, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS, Enumeration8 wrMode)
+wrTimers	datatypes.h	/^	IntervalTimer wrTimers[WR_TIMER_ARRAY_SIZE];$/;"	m	struct:__anon50	access:public
+wrTimetoutManage	wr_protocol.c	/^void wrTimetoutManage(UInteger8 enteringState, UInteger8 exitingState, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)$/;"	f	signature:(UInteger8 enteringState, UInteger8 exitingState, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+wrTimetoutManage	wr_protocol.h	/^void wrTimetoutManage(UInteger8,UInteger8, RunTimeOpts *rtOpts,$/;"	p	signature:(UInteger8,UInteger8, RunTimeOpts *rtOpts, PtpPortDS *ptpPortDS)
+wr_flags	datatypes.h	/^	UInteger8 wr_flags;$/;"	m	struct:__anon36	access:public
+wr_servo	datatypes.h	/^	wr_servo_state_t wr_servo;$/;"	m	struct:__anon50	access:public
+wr_servo_enable_tracking	dep/wr_servo.c	/^void wr_servo_enable_tracking(int enable)$/;"	f	signature:(int enable)
+wr_servo_enable_tracking	ptpd.h	/^extern void wr_servo_enable_tracking(int enable);$/;"	p	signature:(int enable)
+wr_servo_got_delay	dep/wr_servo.c	/^int wr_servo_got_delay(PtpPortDS *clock, Integer32 cf)$/;"	f	signature:(PtpPortDS *clock, Integer32 cf)
+wr_servo_got_delay	ptpd.h	/^int wr_servo_got_delay(PtpPortDS *clock, Integer32 cf);$/;"	p	signature:(PtpPortDS *clock, Integer32 cf)
+wr_servo_got_sync	dep/wr_servo.c	/^int wr_servo_got_sync(PtpPortDS *clock, TimeInternal t1, TimeInternal t2)$/;"	f	signature:(PtpPortDS *clock, TimeInternal t1, TimeInternal t2)
+wr_servo_got_sync	ptpd.h	/^int wr_servo_got_sync(PtpPortDS *clock, TimeInternal t1, TimeInternal t2);$/;"	p	signature:(PtpPortDS *clock, TimeInternal t1, TimeInternal t2)
+wr_servo_init	dep/wr_servo.c	/^int wr_servo_init(PtpPortDS *clock)$/;"	f	signature:(PtpPortDS *clock)
+wr_servo_init	ptpd.h	/^int wr_servo_init(PtpPortDS *clock);$/;"	p	signature:(PtpPortDS *clock)
+wr_servo_man_adjust_phase	dep/wr_servo.c	/^int wr_servo_man_adjust_phase(int phase)$/;"	f	signature:(int phase)
+wr_servo_man_adjust_phase	ptpd.h	/^extern int wr_servo_man_adjust_phase(int phase);$/;"	p	signature:(int phase)
+wr_servo_reset	dep/wr_servo.c	/^void wr_servo_reset()$/;"	f
+wr_servo_state_t	dep/datatypes_dep.h	/^} wr_servo_state_t;$/;"	t	typeref:struct:__anon9
+wr_servo_update	dep/wr_servo.c	/^int wr_servo_update(PtpPortDS *clock)$/;"	f	signature:(PtpPortDS *clock)
+wr_servo_update	ptpd.h	/^int wr_servo_update(PtpPortDS *clock);$/;"	p	signature:(PtpPortDS *clock)
+wrc_debug_printf	dep/trace.h	/^extern void wrc_debug_printf(int subsys, const char *fmt, ...);$/;"	p	signature:(int subsys, const char *fmt, ...)
+y	dep/datatypes_dep.h	/^	Integer32  nsec_prev, y;$/;"	m	struct:__anon6	access:public
+y	dep/datatypes_dep.h	/^	Integer32  nsec_prev, y;$/;"	m	struct:__anon7	access:public
